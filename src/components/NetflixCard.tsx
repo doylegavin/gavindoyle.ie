@@ -28,7 +28,7 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
   subtitle, 
   description, 
   imageUrl, 
-  badge, 
+  // badge - extracted but unused, kept in interface for API compatibility
   rating, 
   duration, 
   tags = [], 

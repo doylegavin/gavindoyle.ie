@@ -107,7 +107,7 @@ export default function ContactPage() {
         <h2 className="section-title">Schedule a Call</h2>
         <div className="max-w-4xl mx-auto">
           <p className="text-center text-gray-300 mb-8">
-            Prefer to chat? Book a 30-minute call to discuss your project, get advice, or just have a friendly conversation about tech, teaching, or Dublin's best coffee spots.
+            Prefer to chat? Book a 30-minute call to discuss your project, get advice, or just have a friendly conversation about tech, teaching, or Dublin&apos;s best coffee spots.
           </p>
           {/* Calendly inline widget */}
           <div className="calendly-inline-widget" data-url="https://calendly.com/doyle-d-gavin/30min" style={{minWidth: '320px', height: '700px'}}></div>

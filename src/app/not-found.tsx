@@ -9,7 +9,7 @@ export default function NotFound() {
           <h1 className="text-8xl font-bold text-red-600 mb-4">404</h1>
           <h2 className="text-3xl font-semibold mb-4">Lost in the code?</h2>
           <p className="text-xl text-gray-300 mb-8">
-            This page doesn't exist, but my projects definitely do.
+            This page doesn&apos;t exist, but my projects definitely do.
           </p>
         </div>
 
@@ -38,10 +38,10 @@ export default function NotFound() {
         {/* Fun message */}
         <div className="text-gray-400">
           <p className="mb-2">
-            "There are only 10 types of people in the world: those who understand binary and those who don't."
+            &quot;There are only 10 types of people in the world: those who understand binary and those who don&apos;t.&quot;
           </p>
           <p className="text-sm">
-            — Every developer's favorite joke (including mine)
+            — Every developer&apos;s favorite joke (including mine)
           </p>
         </div>
 

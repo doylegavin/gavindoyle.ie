@@ -223,7 +223,7 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
               <div className="mb-6 bg-gray-800 p-4 rounded-lg">
                 <h4 className="text-lg font-semibold text-white mb-3">Client Testimonial</h4>
                 <blockquote className="text-gray-300 italic mb-2">
-                  "{project.testimonial.quote}"
+                  &quot;{project.testimonial.quote}&quot;
                 </blockquote>
                 <cite className="text-gray-400 text-sm">
                   — {project.testimonial.author}, {project.testimonial.role}

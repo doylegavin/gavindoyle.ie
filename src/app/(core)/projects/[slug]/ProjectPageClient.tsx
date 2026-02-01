@@ -194,7 +194,7 @@ export default function ProjectPageClient({ project }: ProjectPageClientProps) {
           <section className="mb-12">
             <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
               <blockquote className="text-xl text-gray-300 italic mb-4">
-                "{project.testimonial.quote}"
+                &quot;{project.testimonial.quote}&quot;
               </blockquote>
               <cite className="text-gray-400">
                 — {project.testimonial.author}, {project.testimonial.role}

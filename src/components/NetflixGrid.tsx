@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef, useEffect, ReactNode, useCallback } from 'react';
+import React, { useState, useRef, ReactNode, useCallback } from 'react';
 
 interface NetflixGridProps {
   children: ReactNode;

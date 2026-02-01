@@ -122,7 +122,6 @@ export function NavigationProvider({ children }: NavigationProviderProps) {
   // Find first visible section on screen
   const findFirstVisibleSection = useCallback(() => {
     const sections = document.querySelectorAll('[data-nav-section]');
-    const viewportCenter = window.innerHeight / 2;
     
     for (let i = 0; i < sections.length; i++) {
       const section = sections[i] as HTMLElement;

@@ -18,7 +18,7 @@ interface ContactModalProps {
 }
 
 export default function ContactModal({ contactOptions }: ContactModalProps) {
-  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [, setSelectedOption] = useState<string | null>(null);
 
   const handleOptionClick = (option: ContactOption) => {
     if (option.link.startsWith('mailto:') || option.link.startsWith('https://')) {

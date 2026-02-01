@@ -302,7 +302,7 @@ export default function EmployersPage() {
 
         {/* Get In Touch */}
         <div className="netflix-section">
-          <h2 className="netflix-section-title">Let's Work Together</h2>
+          <h2 className="netflix-section-title">Let&apos;s Work Together</h2>
           <ContactModal contactOptions={contactOptions} />
         </div>
 

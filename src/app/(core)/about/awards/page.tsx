@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import PersonaHero from '@/components/PersonaHero';
 import ContentCard from '@/components/ContentCard';
 
@@ -95,8 +96,8 @@ export default function AwardsPage() {
           <h2>Recognition through execution</h2>
           <p>Awards are nice, but shipping products that people actually use is better.</p>
           <div className="cta-buttons">
-            <a href="/projects" className="btn btn-primary">See My Work</a>
-            <a href="/contact" className="btn btn-secondary">Get In Touch</a>
+            <Link href="/projects" className="btn btn-primary">See My Work</Link>
+            <Link href="/contact" className="btn btn-secondary">Get In Touch</Link>
           </div>
         </div>
       </section>
