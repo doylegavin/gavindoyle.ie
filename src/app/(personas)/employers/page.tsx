@@ -122,18 +122,44 @@ export default function EmployersPage() {
         {/* Examinaite Project */}
         <NavSection title="Flagship Project: Examinaite">
           <NetflixCard
-            title="Teaching with Examinaite"
-            subtitle="In the classroom"
-            description="Teaching in class using Examinaite - real-world application of the platform I built."
-            imageUrl="/images/personas/employers/teaching-in-class-examinaite.JPG"
-            tags={["Teaching", "Examinaite", "Classroom"]}
-          />
-          <NetflixCard
             title="Classroom Integration"
             subtitle="Live teaching"
             description="In classroom teaching with Examinaite - showing how the platform works in practice."
             imageUrl="/images/personas/employers/in_classoom_teaching_examinaite.JPG"
             tags={["Classroom", "Live", "Teaching"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Examinaite Team"
+            subtitle="Teaching these kids a thing or two"
+            description="Me_and_the_Examinaite_team.JPG - teaching these kids a thing or two"
+            imageUrl="/images/Me_and_the_Examinaite_team.JPG"
+            tags={["Team", "Teaching", "Examinaite"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Irish Times Coverage"
+            subtitle="Making Nana proud"
+            description="Tired but Making Nana proud - featured in the Irish Times with my Nana!"
+            imageUrl="/images/MeandNanawithIrishTimes.jpeg"
+            tags={["Irish Times", "Press", "Family"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Irish Times Article"
+            subtitle="Who's this guy"
+            description="Who's this guy - Featured in the Irish Times"
+            imageUrl="/images/TheIrishTimesArticle.jpg"
+            tags={["Irish Times", "Press", "Feature"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Irish Independent Coverage"
+            subtitle="Taking over the National News"
+            description="Taking over the National News - featured in the Irish Independent"
+            imageUrl="/images/IrishIndependentArticle.jpg"
+            tags={["Irish Independent", "Press", "News"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Examinaite Screenshot 1"
@@ -141,6 +167,7 @@ export default function EmployersPage() {
             description="Screenshot of the Examinaite platform - AI-powered revision tool."
             imageUrl="/images/personas/employers/examinaite1.png"
             tags={["Examinaite", "AI", "EdTech"]}
+            imagePosition={8}
           />
           <NetflixCard
             title="Examinaite Screenshot 2"
@@ -148,6 +175,7 @@ export default function EmployersPage() {
             description="Screenshot of the Examinaite dashboard - student analytics and progress."
             imageUrl="/images/personas/employers/examinaite2.png"
             tags={["Dashboard", "Analytics", "Progress"]}
+            imagePosition={8}
           />
           <NetflixCard
             title="Examinaite Screenshot 3"
@@ -155,13 +183,7 @@ export default function EmployersPage() {
             description="Screenshot of Examinaite question generation - AI-powered Leaving Cert questions."
             imageUrl="/images/personas/employers/examinaite3.png"
             tags={["Questions", "AI", "Leaving Cert"]}
-          />
-          <NetflixCard
-            title="Irish Times Feature"
-            subtitle="Press coverage"
-            description="Examinaite featured in the Irish Times - media recognition for the platform."
-            imageUrl="/images/personas/employers/examinaite_irish_times_article.png"
-            tags={["Irish Times", "Press", "Feature"]}
+            imagePosition={8}
           />
         </NavSection>
 
@@ -190,14 +212,15 @@ export default function EmployersPage() {
           />
         </NavSection>
 
-        {/* National AI Challenge */}
-        <NavSection title="National AI Challenge">
+        {/* National AI Challenge & Competitions */}
+        <NavSection title="National AI Challenge & Competitions">
           <NetflixCard
             title="NAIC Presentation"
             subtitle="Finalist"
             description="Presenting GlórAI at the National AI Challenge 2025 - Ireland's largest hackathon. We got to the final!"
             imageUrl="/images/personas/employers/NAIC.JPG"
             tags={["NAIC", "Finalist", "Presentation"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="NAIC Team"
@@ -205,6 +228,47 @@ export default function EmployersPage() {
             description="National AI Challenge team photo - Avengers fr."
             imageUrl="/images/personas/employers/NAIC-team.jpeg"
             tags={["Team", "NAIC", "Avengers"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="The Pitch UK Finalist"
+            subtitle="Finalist ;*"
+            description="Finalist at The Pitch UK - one of the top 8 out of 1000+ applications"
+            imageUrl="/images/ThePitchUKFinalist.jpeg"
+            tags={["The Pitch UK", "Finalist", "Competition"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Pitching at Amazon HQ"
+            subtitle="Professional Yapper"
+            description="Professional Yapper - pitching at Amazon HQ for The Pitch UK"
+            imageUrl="/images/Pitching_at_AmazonHQ_ThePitchUK.JPG"
+            tags={["Amazon", "Pitch", "UK"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="Still Yapping"
+            subtitle="Amazon HQ"
+            description="Still yapping - more pitching at Amazon HQ"
+            imageUrl="/images/Pitching_at_AmazonHQ_ThePitchUK2.JPG"
+            tags={["Amazon", "Presentation", "Pitch"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="National Startup Awards"
+            subtitle="The Teacher-Tech duo"
+            description="The Teacher-Tech duo revolutionising education - at the National Startup Awards with my co-founder Aidan"
+            imageUrl="/images/NationalStartUpAwardswAidan.jpeg"
+            tags={["Startup Awards", "Co-founder", "Education"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Best Dressed at City Hall"
+            subtitle="National Start Up Awards"
+            description="Best dressed boys at the National Start Up Awards"
+            imageUrl="/images/SadBoysatCityHall.jpeg"
+            tags={["Awards", "Dublin", "Formal"]}
+            imagePosition={7}
           />
         </NavSection>
 
@@ -286,6 +350,39 @@ export default function EmployersPage() {
             description="Make sure to check out give(a)go !! - community building event."
             imageUrl="/images/personas/employers/giveago-builder-weekend.jpeg"
             tags={["GiveAGo", "Community", "Builders"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Cybersecurity Podcast"
+            subtitle="My first podcast invite!!"
+            description="My first podcast invite!! - discussing cybersecurity and edtech"
+            imageUrl="/images/personas/employers/podcast-cybersecurity.JPG"
+            tags={["Podcast", "Cybersecurity", "EdTech"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="DCU Open Day"
+            subtitle="Back to the Old Stomping ground"
+            description="Back to the Old Stomping ground for the DCU open day!"
+            imageUrl="/images/DCU_Nov_OpenDay.JPG"
+            tags={["DCU", "Open Day", "Education"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Dogpatch Girlies"
+            subtitle="My Dogpatch girlies"
+            description="My Dogpatch girlies - building in the startup community"
+            imageUrl="/images/DogpatchGirls.jpg"
+            tags={["Dogpatch", "Community", "Startups"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Hot Pot Squad"
+            subtitle="Teaching the Chinese about Chinese food"
+            description="Teaching the Chinese about Chinese food - community and networking"
+            imageUrl="/images/HotPotSquad.jpeg"
+            tags={["Community", "Networking", "Food"]}
+            imagePosition={6}
           />
         </NavSection>
 
@@ -297,6 +394,39 @@ export default function EmployersPage() {
             description="Basketball scholarship recipient - demonstrating dedication, teamwork, and performance under pressure."
             imageUrl="/images/personas/employers/bball-scholarship.JPG"
             tags={["Scholarship", "Basketball", "Ulster"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Pre-Half Marathon"
+            subtitle="PreHalfMarathon"
+            description="PreHalfMarathon - ready to go!"
+            imageUrl="/images/PreHalfMarathon.jpeg"
+            tags={["Marathon", "Fitness", "Running"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Post-Half Marathon"
+            subtitle="PostHalfMarathon"
+            description="PostHalfMarathon - completed and exhausted"
+            imageUrl="/images/PostHalfMarathon.jpeg"
+            tags={["Marathon", "Achievement", "Endurance"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Got That DAWG in Me"
+            subtitle="WOOF WOOF"
+            description="WOOF WOOF - competitive spirit"
+            imageUrl="/images/GotThatDAWGinMe.jpg"
+            tags={["Competitive", "Sports", "Attitude"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Supporting Ireland at Olympics"
+            subtitle="COYBIG"
+            description="COYBIG - Come on you boys in green! Supporting Ireland at the Olympics"
+            imageUrl="/images/personas/curious/supporting-ireland-at-olympics.JPG"
+            tags={["Olympics", "Ireland", "Support"]}
+            imagePosition={5}
           />
         </NavSection>
 

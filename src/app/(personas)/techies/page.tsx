@@ -98,6 +98,88 @@ export default function EngineersPage() {
             imageUrl="/images/personas/techies/glorai3.png"
             tags={["Learning", "Oral", "Chat"]}
           />
+          <NetflixCard
+            title="Tech Stack"
+            subtitle="Modern architecture"
+            description="Built with Next.js, TypeScript, OpenAI APIs, and Web Speech API. Focus on performance and user experience."
+            imageUrl="/images/personas/techies/glorai1.png"
+            tags={["Next.js", "TypeScript", "OpenAI"]}
+          />
+          <NetflixCard
+            title="Voice Recognition"
+            subtitle="Whisper integration"
+            description="Integrated OpenAI Whisper for accurate Irish language voice recognition - technical challenge solved."
+            imageUrl="/images/personas/techies/glorai2.png"
+            tags={["Whisper", "Voice", "Recognition"]}
+          />
+        </NavSection>
+
+        {/* Examinaite Project */}
+        <NavSection title="Project: Examinaite">
+          <NetflixCard
+            title="Early Development"
+            subtitle="Building the foundation"
+            description="Early screenshot of Examinaite's development - building AI-powered education platform from scratch."
+            imageUrl="/images/examinaite_early_screenshot.png"
+            tags={["Examinaite", "Early", "Development"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Teaching in Class"
+            subtitle="Real-world testing"
+            description="Inside look at Examinaite - testing the platform in real classrooms with students."
+            imageUrl="/images/teaching-in-class-examinaite.JPG"
+            tags={["Teaching", "Classroom", "Testing"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="In Classroom"
+            subtitle="Student usage"
+            description="Inside look at Examinaite - students using the platform for exam prep."
+            imageUrl="/images/in_classoom_teaching_examinaite.JPG"
+            tags={["Classroom", "Students", "Usage"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="The Pitch UK"
+            subtitle="Top 8 of 1000+"
+            description="We're in the Pitch UK! top 8 out of 1000+ applications - major validation."
+            imageUrl="/images/examinaite_in_thePitchUK.png"
+            tags={["Pitch UK", "Competition", "Top 8"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="Irish Times Feature"
+            subtitle="First newspaper article"
+            description="My first newspaper article!!! - Examinaite featured in the Irish Times."
+            imageUrl="/images/examinaite_irish_times_article.png"
+            tags={["Irish Times", "Press", "Article"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Platform Interface 1"
+            subtitle="Student dashboard"
+            description="Inside look at Examinaite - clean, intuitive student dashboard design."
+            imageUrl="/images/examinaite1.png"
+            tags={["Dashboard", "UI", "Design"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Platform Interface 2"
+            subtitle="Question generation"
+            description="Inside look at Examinaite - AI-powered question generation system."
+            imageUrl="/images/examinaite2.png"
+            tags={["AI", "Questions", "Generation"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Platform Interface 3"
+            subtitle="Adaptive learning"
+            description="Inside look at Examinaite - adaptive difficulty and personalized learning paths."
+            imageUrl="/images/examinaite3.png"
+            tags={["Adaptive", "Learning", "Personalized"]}
+            imagePosition={8}
+          />
         </NavSection>
 
         {/* Bart Artist Portfolio */}
@@ -168,6 +250,13 @@ export default function EngineersPage() {
             imageUrl="/images/personas/techies/thekneecap4.png"
             tags={["Love", "Kneecap", "Gaeilge"]}
           />
+          <NetflixCard
+            title="Translation Engine"
+            subtitle="Bilingual learning"
+            description="Built custom translation engine for Irish-English lyrics synchronization. Perfect for language learners."
+            imageUrl="/images/personas/techies/thekneecap.png"
+            tags={["Translation", "Irish", "Engine"]}
+          />
         </NavSection>
 
         {/* Community */}
@@ -178,6 +267,35 @@ export default function EngineersPage() {
             description="Website for GiveAGo Builder Weekend - community building event with local developers. Make sure to check out give(a)go !!"
             imageUrl="/images/personas/techies/giveago-builder-weekend.jpeg"
             tags={["Community", "Event", "Builders"]}
+          />
+          <NetflixCard
+            title="Podcast: Cybersecurity"
+            subtitle="First podcast invite"
+            description="My first podcast invite!! - discussing cybersecurity and tech in education."
+            imageUrl="/images/podcast-cybersecurity.JPG"
+            tags={["Podcast", "Cybersecurity", "Education"]}
+          />
+          <NetflixCard
+            title="DCU Open Day"
+            subtitle="Back to campus"
+            description="Back to the Old Stomping ground for the DCU open day! - sharing tech journey with students."
+            imageUrl="/images/DCU_Nov_OpenDay.JPG"
+            tags={["DCU", "Open Day", "Education"]}
+          />
+          <NetflixCard
+            title="Tech Community"
+            subtitle="Builder culture"
+            description="Active member of Dublin's tech community - building, learning, and sharing knowledge."
+            imageUrl="/images/personas/techies/NAIC-team.jpeg"
+            tags={["Community", "Dublin", "Tech"]}
+          />
+          <NetflixCard
+            title="National Startup Awards"
+            subtitle="Recognition"
+            description="Best dressed boys at the National Start Up Awards - representing the tech startup scene."
+            imageUrl="/images/SadBoysatCityHall.jpeg"
+            tags={["Startup Awards", "Recognition", "Scene"]}
+            imagePosition={7}
           />
         </NavSection>
 

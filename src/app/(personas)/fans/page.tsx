@@ -242,6 +242,39 @@ export default function FansPage() {
             description="Cool photo of me and my friend David drinking Guinness after going to see Oasis in Croke Park, 2025. One of the best nights of my life, a dream come true. Oasis are my favourite band."
             imageUrl="/images/personas/fans/drinking-guinness.jpg"
             tags={["Oasis", "Croke Park", "Guinness"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="At the Oasis Gig"
+            subtitle="Best night ever"
+            description="Seeing Oasis irl was the best night of my life"
+            imageUrl="/images/personas/curious/at_oasis_gig.JPG"
+            tags={["Oasis", "Concert", "Live"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Feeling Cool"
+            subtitle="First time ever"
+            description="Probably the first time I ever felt cool - drinking Guinness at the Oasis concert"
+            imageUrl="/images/personas/curious/cool_drinking_guinness_at_oasis.JPG"
+            tags={["Cool", "Guinness", "Oasis"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Oasis in Paris"
+            subtitle="D'Olympics Squad!"
+            description="D'Olympics Squad! - big Paris group trip"
+            imageUrl="/images/bigparisgroup.JPG"
+            tags={["Paris", "Olympics", "Squad"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="BlessUp"
+            subtitle="BLESSUP"
+            description="BLESSUP - good vibes only"
+            imageUrl="/images/blessup.JPG"
+            tags={["BlessUp", "Vibes", "Positivity"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -309,6 +342,7 @@ export default function FansPage() {
             description="Me with my best friends parents, Mary and Tosh - Mary Byrne inspired me to become a teacher."
             imageUrl="/images/personas/fans/me-and-mary-and-tosh.jpg"
             tags={["Mary", "Tosh", "Teaching"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Kate O'Connor"
@@ -316,6 +350,46 @@ export default function FansPage() {
             description="An old photo of me and my friend Kate O'Connor at the sports awards when we used to study at Ulster University together. Kate's gone on to win silver at the world athletics championships in 2025, as well compete in the Olympics in Paris, 2024. She's a baller."
             imageUrl="/images/personas/fans/me-and-kateoconnor-at-a-ball.JPG"
             tags={["Kate O'Connor", "Olympian", "Ulster"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Sophie"
+            subtitle="MY GORGEOUS FRIEND"
+            description="MY GORGEOUS FRIEND SOPHIE"
+            imageUrl="/images/bophiebort.JPG"
+            tags={["Sophie", "Friend", "Gorgeous"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="The Homers"
+            subtitle="Best gift ever"
+            description="It's because of the Homers isn't it (Best gift I've ever received)"
+            imageUrl="/images/TheHomers.jpeg"
+            tags={["The Homers", "Gift", "Friends"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="The Viscount Boys"
+            subtitle="80% chance you'll find them here"
+            description="80% chance you'll find these boys in the Viscount"
+            imageUrl="/images/TheViscountBoys.JPG"
+            tags={["Viscount", "Boys", "Squad"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Patrick Squared"
+            subtitle="My two favourite Patricks"
+            description="My two favourite Patricks"
+            imageUrl="/images/PatrickSquared.JPG"
+            tags={["Patrick", "Friends", "Squad"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Sinead and Adam"
+            subtitle="Incredibly talented"
+            description="My incredibly talented friends Sinead and Adam"
+            imageUrl="/images/GavxSineadxAdam.JPG"
+            tags={["Sinead", "Adam", "Talented"]}
             imagePosition={8}
           />
         </NavSection>
@@ -328,6 +402,7 @@ export default function FansPage() {
             description="Me, in my favourite coffee shop, 3fe, getting served coffee by my favourite barista and friend, Eric the Wizard."
             imageUrl="/images/personas/fans/]getting-coffee.JPG"
             tags={["3fe", "Eric", "Coffee"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Latte Art"
@@ -335,6 +410,31 @@ export default function FansPage() {
             description="The boys in 3fe have been teaching me to do some latte art - not bad ay!!!"
             imageUrl="/images/personas/fans/latte-art.JPG"
             tags={["Latte Art", "3fe", "Learning"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Eric of Wizards"
+            subtitle="Dont mess with the Wizard"
+            description="Dont mess with the Wizard - Eric is the master barista at 3fe"
+            imageUrl="/images/EricOfWizards.jpg"
+            tags={["Eric", "Wizard", "3fe"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Hey Man Coffee"
+            subtitle="Do you like coffee man"
+            description="Hey man do you like coffee man - getting my caffeine fix"
+            imageUrl="/images/personas/suitors/me-getting-coffee.JPG"
+            tags={["Coffee", "Caffeine", "Culture"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Belfast Blur"
+            subtitle="The whole year was a blur"
+            description="The whole year I lived in Belfast was a blur tbh - lots of coffee needed"
+            imageUrl="/images/belfastblur.jpg"
+            tags={["Belfast", "Blur", "Year"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -354,6 +454,31 @@ export default function FansPage() {
             description="The final Spaghetti Arms - after a tough session."
             imageUrl="/images/personas/fans/last-spaghetti-arms.JPG"
             tags={["Workout", "Arms", "Training"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Pre-Half Marathon"
+            subtitle="Ready to go"
+            description="PreHalfMarathon - ready and excited!"
+            imageUrl="/images/PreHalfMarathon.jpeg"
+            tags={["Marathon", "Running", "Ready"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Post-Half Marathon"
+            subtitle="Exhausted"
+            description="PostHalfMarathon - done and dusted"
+            imageUrl="/images/PostHalfMarathon.jpeg"
+            tags={["Marathon", "Complete", "Exhausted"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Got That DAWG"
+            subtitle="WOOF WOOF"
+            description="WOOF WOOF - got that competitive spirit in me"
+            imageUrl="/images/GotThatDAWGinMe.jpg"
+            tags={["Competitive", "DAWG", "Spirit"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -453,6 +578,7 @@ export default function FansPage() {
             description="Found a cool lane way once and decided it would be a great photo opp."
             imageUrl="/images/personas/fans/laneway.JPG"
             tags={["Laneway", "Photography", "Cool"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Fashion Shoot"
@@ -460,6 +586,31 @@ export default function FansPage() {
             description="Lil impromptu fashion shoot in the laneway."
             imageUrl="/images/personas/fans/laneway2.JPG"
             tags={["Fashion", "Impromptu", "Style"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="I Don't Smoke"
+            subtitle="But I feel cool af"
+            description="I dont smoke but I feel cool af"
+            imageUrl="/images/I_dont_smoke.JPG"
+            tags={["Cool", "Aesthetic", "Vibes"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Irish Flag Digital"
+            subtitle="Ooh Ah"
+            description="Ooh Ah - Up the Rebels through my digital camera"
+            imageUrl="/images/IrishFlagDigital.jpg"
+            tags={["Ireland", "Digital", "Photography"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Digital Selfie"
+            subtitle="Taking it for a spin"
+            description="Taking my digital camera for a spin with the boys"
+            imageUrl="/images/TheBoysDigitalSelfie.JPG"
+            tags={["Digital", "Boys", "Photography"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -471,6 +622,7 @@ export default function FansPage() {
             description="My biggest regret in life was NOT buying this t shirt."
             imageUrl="/images/personas/fans/coolest-tshirt.jpg"
             tags={["Fashion", "Regret", "Cool"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Movember"
@@ -478,6 +630,7 @@ export default function FansPage() {
             description="My first and last Movember - the moustache experiment."
             imageUrl="/images/personas/fans/first-and-last-movember.jpg"
             tags={["Movember", "Moustache", "Charity"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Modelling Debut"
@@ -493,6 +646,7 @@ export default function FansPage() {
             description="This is my mug collection - I'm a collector of fine mugs."
             imageUrl="/images/personas/fans/mug-collection.JPG"
             tags={["Mugs", "Collection", "Home"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Hella Fruit"
@@ -500,6 +654,7 @@ export default function FansPage() {
             description="The fruit bowl that HATES to see me and my housemates coming."
             imageUrl="/images/personas/fans/hella-fruit.JPG"
             tags={["Fruit", "Healthy", "Housemates"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Miami Vice"
@@ -515,6 +670,7 @@ export default function FansPage() {
             description="Posing getting a nice picture just so we could get a snap of MATTRESS MICK!"
             imageUrl="/images/personas/fans/mattress-mick-wedding.JPG"
             tags={["Mattress Mick", "Wedding", "Legend"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="He's a Shooter"
@@ -522,6 +678,7 @@ export default function FansPage() {
             description="HE'S A SHOOTAAAA - basketball shooter mentality."
             imageUrl="/images/personas/fans/shoota.JPG"
             tags={["Shooter", "Basketball", "Mentality"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Tea Time"
@@ -529,6 +686,7 @@ export default function FansPage() {
             description="Tea - sometimes the simple things in life are the best."
             imageUrl="/images/personas/fans/tea.jpg"
             tags={["Tea", "Simple", "Relax"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Woodwork Project"
@@ -536,6 +694,7 @@ export default function FansPage() {
             description="Here's my LC woodwork project! - handmade craftsmanship."
             imageUrl="/images/personas/fans/woodwork-project.JPG"
             tags={["Woodwork", "LC", "Handmade"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Oh Donuts"
@@ -544,6 +703,62 @@ export default function FansPage() {
             imageUrl="/images/personas/fans/oh!-donuts-guy.PNG"
             tags={["Donuts", "Random", "Encounter"]}
             imagePosition={8}
+          />
+          <NetflixCard
+            title="BRAT"
+            subtitle="In my BRAT era"
+            description="In my BRAT era"
+            imageUrl="/images/brat.JPEG"
+            tags={["BRAT", "Era", "Vibes"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Darts"
+            subtitle="New Obsession"
+            description="New Obsession - Darts"
+            imageUrl="/images/Darts.jpg"
+            tags={["Darts", "Hobby", "New"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Bohs Maxxing"
+            subtitle="Mon the Bohs"
+            description="Mon the Bohs - supporting the local team"
+            imageUrl="/images/BohsMaxxing.jpg"
+            tags={["Bohs", "Football", "Local"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Where the Hustlers At"
+            subtitle="AYO"
+            description="AYO WHERE THE HUSTLERS AT!?! - BeReal moment"
+            imageUrl="/images/BeReal_wherethehustlersat.JPG"
+            tags={["BeReal", "Hustlers", "Moment"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Shein Calling"
+            subtitle="Christmas Kris Kindle"
+            description="Result of a Shein Christmas Kris Kindle"
+            imageUrl="/images/RingRingSheinIsCalling.JPG"
+            tags={["Shein", "Christmas", "Funny"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Sir Ralph"
+            subtitle="Distinguished gentleman"
+            description="Such a distinguished gentleman"
+            imageUrl="/images/SirRalph.jpeg"
+            tags={["Ralph", "Gentleman", "Dapper"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="First Flowers"
+            subtitle="Yeah I made them myself"
+            description="My first flower arrangement (Yeah I made them myself)"
+            imageUrl="/images/Myfirstflowers.jpeg"
+            tags={["Flowers", "Arrangement", "DIY"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -555,6 +770,7 @@ export default function FansPage() {
             description="Me and my cousins receiving our Christmas presents on our nana's floor, 2010."
             imageUrl="/images/personas/fans/12yo-gav.JPG"
             tags={["Christmas", "2010", "Family"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Baby Gav"
@@ -562,6 +778,7 @@ export default function FansPage() {
             description="A cute baby photo of myself, I used to be cute!"
             imageUrl="/images/personas/fans/babyphoto.JPG"
             tags={["Baby", "Cute", "Childhood"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Mam and Dad"
@@ -569,6 +786,47 @@ export default function FansPage() {
             description="Adrienne and Tony - my wonderful parents."
             imageUrl="/images/personas/fans/mam-and-dad.JPG"
             tags={["Parents", "Family", "Love"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Dad Through Digital Lens"
+            subtitle="My dad"
+            description="My dad through my digital camera"
+            imageUrl="/images/DigitalDad.jpg"
+            tags={["Dad", "Digital", "Photography"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Mam Through Digital Lens"
+            subtitle="My mam"
+            description="My mam through my digital camera"
+            imageUrl="/images/DigitalMam.jpg"
+            tags={["Mam", "Digital", "Photography"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Cousin Alfie"
+            subtitle="Crazy cousin"
+            description="This is my crazy cousin Alfie"
+            imageUrl="/images/ALFIE.jpg"
+            tags={["Alfie", "Cousin", "Family"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Alfie Again"
+            subtitle="Still crazy"
+            description="This is my crazy cousin Alfie - another shot"
+            imageUrl="/images/ALFIE2.jpg"
+            tags={["Alfie", "Cousin", "Funny"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="All I Want For Christmas"
+            subtitle="Bloody funny"
+            description="I am so bloody funny (This is my teen cousin she hates me)"
+            imageUrl="/images/AllIwantforchristmasisyou.PNG"
+            tags={["Christmas", "Funny", "Cousin"]}
+            imagePosition={7}
           />
         </NavSection>
 

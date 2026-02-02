@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -83,35 +84,70 @@ export default function Home() {
         <div className="profiles-container">
           <div className="profile" onClick={() => window.location.href = '/employers'}>
             <div className="profile-avatar">
-              <img src="/images/profiles/employers.png" alt="Employers" onError={() => {}} />
+              <Image
+                src="/images/profiles/employers.png"
+                alt="Employers"
+                width={150}
+                height={150}
+                priority
+                style={{ objectFit: 'cover', borderRadius: '8px' }}
+              />
               <div className="emoji-fallback">💼</div>
             </div>
             <div className="profile-name">Employers</div>
           </div>
           <div className="profile" onClick={() => window.location.href = '/fans'}>
             <div className="profile-avatar">
-              <img src="/images/profiles/fans.png" alt="Fans" onError={() => {}} />
+              <Image
+                src="/images/profiles/fans.png"
+                alt="Fans"
+                width={150}
+                height={150}
+                priority
+                style={{ objectFit: 'cover', borderRadius: '8px' }}
+              />
               <div className="emoji-fallback">🎭</div>
             </div>
             <div className="profile-name">Fans</div>
           </div>
           <div className="profile" onClick={() => window.location.href = '/suitors'}>
             <div className="profile-avatar">
-              <img src="/images/profiles/suitors.png" alt="Suitors" onError={() => {}} />
+              <Image
+                src="/images/profiles/suitors.png"
+                alt="Suitors"
+                width={150}
+                height={150}
+                priority
+                style={{ objectFit: 'cover', borderRadius: '8px' }}
+              />
               <div className="emoji-fallback">💕</div>
             </div>
             <div className="profile-name">Suitors</div>
           </div>
           <div className="profile" onClick={() => window.location.href = '/curious'}>
             <div className="profile-avatar">
-              <img src="/images/profiles/curious.png" alt="Curious" onError={() => {}} />
+              <Image
+                src="/images/profiles/curious.png"
+                alt="Curious"
+                width={150}
+                height={150}
+                priority
+                style={{ objectFit: 'cover', borderRadius: '8px' }}
+              />
               <div className="emoji-fallback">🕵️</div>
             </div>
             <div className="profile-name">Stalkers</div>
           </div>
           <div className="profile" onClick={() => window.location.href = '/techies'}>
             <div className="profile-avatar">
-              <img src="/images/profiles/engineers.png" alt="Techies" onError={() => {}} />
+              <Image
+                src="/images/profiles/engineers.png"
+                alt="Techies"
+                width={150}
+                height={150}
+                priority
+                style={{ objectFit: 'cover', borderRadius: '8px' }}
+              />
               <div className="emoji-fallback">⚡</div>
           </div>
             <div className="profile-name">Techies</div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect, forwardRef } from 'react';
+import Image from 'next/image';
 
 interface NetflixCardProps {
   title: string;
@@ -138,10 +139,12 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
       >
         {/* Image container */}
         <div className="netflix-card-image">
-          <img
+          <Image
             src={imageUrl}
             alt={title}
-            style={{ objectPosition: `center ${positionPercent}%` }}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            style={{ objectFit: 'cover', objectPosition: `center ${positionPercent}%` }}
           />
           {/* Tags overlay - only shows on hover/focus/active */}
           {tags.length > 0 && (
@@ -179,9 +182,12 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
             </button>
             <div className="netflix-modal-content">
               <div className="netflix-modal-image">
-                <img
+                <Image
                   src={imageUrl}
                   alt={title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 80vw"
+                  style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className="netflix-modal-info">

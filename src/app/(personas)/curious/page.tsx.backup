@@ -187,7 +187,7 @@ export default function CuriousPage() {
             title="National Cup Winners"
             subtitle="Victory"
             description="Winner Winner Pints for Dinner - winning the national basketball cup."
-            imageUrl="/images/personas/fans/winning-basketball-national-cup.JPG"
+            imageUrl="/images/winning-basketball-national-cup.JPG"
             tags={["Winner", "National Cup", "Champions"]}
           />
           <NetflixCard
@@ -259,21 +259,21 @@ export default function CuriousPage() {
             title="Drinking Guinness Post-Oasis"
             subtitle="With David"
             description="Cool photo of me and my friend David drinking Guinness after going to see Oasis in Croke Park, 2025. One of the best nights of my life, a dream come true. Oasis are my favourite band."
-            imageUrl="/images/personas/fans/drinking-guinness.jpg"
+            imageUrl="/images/drinking-guinness.jpg"
             tags={["Guinness", "David", "Oasis"]}
           />
           <NetflixCard
             title="I Love Oasis"
             subtitle="Unhealthy obsession"
             description="I love Oasis so much I am so unhealthily obsessed I've been in the top 0.01% of worldwide listeners for the past 4 years."
-            imageUrl="/images/personas/suitors/me-at-oasis.JPG"
+            imageUrl="/images/personas/curious/me-at-oasis.JPG"
             tags={["Oasis", "Obsession", "Top 0.01%"]}
           />
           <NetflixCard
             title="Olympics Rugby"
             subtitle="COYBIG"
             description="Come on you girls in green - supporting Ireland at the Olympics rugby."
-            imageUrl="/images/personas/curious/at-olympic-rugby-game-with-irish-ireland-flag.JPG"
+            imageUrl="/images/at-olympic-rugby-game-with-irish-ireland-flag.JPG"
             tags={["Olympics", "Rugby", "Ireland"]}
           />
         </NavSection>
@@ -355,7 +355,7 @@ export default function CuriousPage() {
             title="Third Wheeling"
             subtitle="Favourite pastime"
             description="One of my favourite past times is 3rd wheeling my best mate and his girlfriend."
-            imageUrl="/images/personas/suitors/selfie-with-luke-and-may.jpg"
+            imageUrl="/images/selfie-with-luke-and-may.jpg"
             tags={["Luke", "Third Wheel", "Friends"]}
           />
           <NetflixCard
@@ -443,7 +443,7 @@ export default function CuriousPage() {
             title="Kate O'Connor"
             subtitle="Olympic friend"
             description="Glad to see one of my fans doing well for herself (Kate O'Connor, Olympian, World Silver medalist, Irish Sportsperson of the year)."
-            imageUrl="/images/personas/fans/me-and-kateoconnor-at-a-ball.JPG"
+            imageUrl="/images/me-and-kateoconnor-at-a-ball.JPG"
             tags={["Kate O'Connor", "Olympian", "Friend"]}
             imagePosition={8}
           />
@@ -462,7 +462,7 @@ export default function CuriousPage() {
             title="With Eric the Wizard"
             subtitle="Favourite barista"
             description="Me, in my favourite coffee shop, 3fe, getting served coffee by my favourite barista and friend, Eric the Wizard."
-            imageUrl="/images/personas/fans/]getting-coffee.JPG"
+            imageUrl="/images/]getting-coffee.JPG"
             tags={["3fe", "Eric", "Wizard"]}
           />
           <NetflixCard
@@ -484,7 +484,7 @@ export default function CuriousPage() {
             title="Getting Coffee 2"
             subtitle="Daily ritual"
             description="Hey man do you like coffee man - daily coffee shop visits."
-            imageUrl="/images/personas/suitors/me-getting-coffee.JPG"
+            imageUrl="/images/personas/curious/me-getting-coffee.JPG"
             tags={["Coffee", "Daily", "Ritual"]}
           />
         </NavSection>
@@ -537,28 +537,28 @@ export default function CuriousPage() {
             title="Scotland Mountains"
             subtitle="Hiking adventure"
             description="In the Scottish Mountains - exploring the highlands."
-            imageUrl="/images/personas/suitors/gav-in-scottish-mountains.jpg"
+            imageUrl="/images/gav-in-scottish-mountains.jpg"
             tags={["Scotland", "Mountains", "Hiking"]}
           />
           <NetflixCard
             title="Scotland Hike"
             subtitle="Trail time"
             description="On a hike in Scotland - breathtaking views."
-            imageUrl="/images/personas/suitors/gav-on-hike-scotland.jpg"
+            imageUrl="/images/gav-on-hike-scotland.jpg"
             tags={["Scotland", "Hike", "Nature"]}
           />
           <NetflixCard
             title="Italy Drinks"
             subtitle="La dolce vita"
             description="In Italy out for drinkies - living the Italian dream."
-            imageUrl="/images/personas/suitors/me-in-italy-out-for-drinks.JPG"
+            imageUrl="/images/me-in-italy-out-for-drinks.JPG"
             tags={["Italy", "Drinks", "Travel"]}
           />
           <NetflixCard
             title="SF Pier"
             subtitle="With the seals"
             description="SF Pier ft. the seals - San Francisco vibes."
-            imageUrl="/images/personas/suitors/me-on-sanfrancisco-pier.JPG"
+            imageUrl="/images/me-on-sanfrancisco-pier.JPG"
             tags={["San Francisco", "Pier", "Seals"]}
           />
           <NetflixCard
@@ -607,7 +607,7 @@ export default function CuriousPage() {
             title="Olympics Support"
             subtitle="COYBIG"
             description="COYBIG - supporting Ireland at the Olympics!"
-            imageUrl="/images/personas/fans/supporting-ireland-at-olympics.JPG"
+            imageUrl="/images/personas/curious/supporting-ireland-at-olympics.JPG"
             tags={["Olympics", "Ireland", "Support"]}
           />
           <NetflixCard
@@ -651,7 +651,7 @@ export default function CuriousPage() {
             title="Gym Legs"
             subtitle="Never skip"
             description="Arm day... just kidding, always leg day."
-            imageUrl="/images/personas/suitors/gav-in-gym-legs.jpg"
+            imageUrl="/images/gav-in-gym-legs.jpg"
             tags={["Gym", "Legs", "Fitness"]}
             imagePosition={8}
           />
@@ -659,7 +659,7 @@ export default function CuriousPage() {
             title="Mirror Pic"
             subtitle="Love this mirror"
             description="Man I love this mirror - gym progress tracking."
-            imageUrl="/images/personas/suitors/gav-mirror-pic.jpg"
+            imageUrl="/images/gav-mirror-pic.jpg"
             tags={["Mirror", "Gym", "Progress"]}
             imagePosition={8}
           />
@@ -667,7 +667,7 @@ export default function CuriousPage() {
             title="Mirror Pic 2"
             subtitle="Still love it"
             description="Man I love this mirror x2 - keeping consistent."
-            imageUrl="/images/personas/suitors/gav-mirror-pic2.jpg"
+            imageUrl="/images/gav-mirror-pic2.jpg"
             tags={["Mirror", "Consistent", "Gym"]}
             imagePosition={8}
           />
@@ -675,7 +675,7 @@ export default function CuriousPage() {
             title="Home Gym"
             subtitle="My setup"
             description="Home gym - built during COVID for dedicated training."
-            imageUrl="/images/personas/suitors/my-home-gym.JPG"
+            imageUrl="/images/my-home-gym.JPG"
             tags={["Home Gym", "COVID", "Dedication"]}
             imagePosition={7}
           />
@@ -683,7 +683,7 @@ export default function CuriousPage() {
             title="Hyrox Barcelona"
             subtitle="First completion"
             description="Me and my best friend Ciaran after completing our first Hyrox together in Barcelona! It was brutal. I thought it would be easy so I didn't do any training as I thought I'd be fine. I'm not much of a runner so we didn't do as well as expected! But still fun."
-            imageUrl="/images/personas/fans/completing-a-hyrox.jpg"
+            imageUrl="/images/completing-a-hyrox.jpg"
             tags={["Hyrox", "Barcelona", "Challenge"]}
             imagePosition={6}
           />
@@ -748,7 +748,7 @@ export default function CuriousPage() {
             title="With Art"
             subtitle="Very fine"
             description="Very Fine Very Art - appreciating the creative things."
-            imageUrl="/images/personas/suitors/gav-with-art.JPG"
+            imageUrl="/images/gav-with-art.JPG"
             tags={["Art", "Creative", "Culture"]}
           />
           <NetflixCard
@@ -842,7 +842,7 @@ export default function CuriousPage() {
             title="Driving Dad's Van"
             subtitle="Favourite thing"
             description="One of my favourite things to do in life is drive my dads van - simple joys."
-            imageUrl="/images/personas/suitors/me-driving-a-van.JPG"
+            imageUrl="/images/me-driving-a-van.JPG"
             tags={["Van", "Dad", "Driving"]}
             imagePosition={7}
           />
@@ -850,7 +850,7 @@ export default function CuriousPage() {
             title="Goofy Scream"
             subtitle="Life's too short"
             description="Goofy ah scream - don't take life too seriously."
-            imageUrl="/images/personas/suitors/me-funny-screaming.JPG"
+            imageUrl="/images/me-funny-screaming.JPG"
             tags={["Goofy", "Fun", "Personality"]}
           />
           <NetflixCard

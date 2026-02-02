@@ -1,7 +1,8 @@
 # 📸 PHOTO CONTEXT MASTER - Complete Photo Inventory & Context
 
-**Last Updated:** February 1, 2026  
+**Last Updated:** February 2, 2026
 **Total Photos:** 280+ photos across all directories
+**Newly Added (Needs Context):** 50 photos
 
 This is the single source of truth for ALL photo contexts across the entire website.
 
@@ -76,7 +77,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `basketball-headshot1.JPG` - my modeling career is dead and gone {pos:8}
 
 ### Complete Context (continued):
-- `basketball-photoshoot-main.JPG` - I just wanna ball with my bros {pos:8}
+- `basketball-photoshoot-main.JPG` - I just wanna ball with my bros {pos:10}
 - `basketball_photoshoot.JPG` - I just wanna ball with my bros {pos:8}
 - `basketball-headshot.JPG` - I just wanna ball with my bros {pos:8}
 - `basketball-photoshoot-closer.JPG` - I just wanna ball with my bros {pos:8}
@@ -95,9 +96,9 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `graphic_of_me_player_of_the_game_basketball.JPG.JPG` - The Luka Doncic of Division 7 {pos:5}
 - `winning-basketball-national-cup.JPG` - Winner Winner Pints for Dinner {pos:5}
 - `2004bballdrip.JPG` - Lowkey we we're dripping hard (bring back bagging shorts) {pos:5}
-- `bballbigarms.jpg` - My arms look good here that is all {pos:5}
+- `bballbigarms.jpg` - My arms look good here that is all {pos:8}
 - `bballmatchpassing.jpg` - Dont jump and pass!!! {pos:5}
-- `bballscholarship.JPG` - How cute am I {pos:5}
+- `bballscholarship.JPG` - How cute am I {pos:8}
 
 ---
 
@@ -246,14 +247,14 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - EXAMINAITE
 
 ### Available Photos (with context needed):
-- `examinaite_early_screenshot.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `examinaite_in_thePitchUK.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `examinaite_irish_times_article.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `examinaite1.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `examinaite2.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `examinaite3.png` - **AVAILABLE - ADD CONTEXT** {pos:5}
-- `teaching-in-class-examinaite.JPG` - **AVAILABLE - ADD CONTEXT** (currently used) {pos:5}
-- `in_classoom_teaching_examinaite.JPG` - **AVAILABLE - ADD CONTEXT** (currently used) {pos:5}
+- `examinaite_early_screenshot.png` - early screenshot of Examinaites development {pos:8}
+- `examinaite_in_thePitchUK.png` - We're in the Pitch UK! top 8 out of 1000+ applications {pos:6}
+- `examinaite_irish_times_article.png` - My first newspaper article!!! {pos:8}
+- `examinaite1.png` - Inside look at Examinaite {pos:8}
+- `examinaite2.png` - Inside look at Examinaite {pos:8}
+- `examinaite3.png` - Inside look at Examinaite {pos:8}
+- `teaching-in-class-examinaite.JPG` - Inside look at Examinaite {pos:8}
+- `in_classoom_teaching_examinaite.JPG` - Inside look at Examinaite {pos:8}
 
 ### Placeholder Files (need real screenshots):
 - `examinaite-hero.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
@@ -337,27 +338,27 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 👔 PROFESSIONAL HEADSHOTS
 
 ### Synergy Professional Photos (Used on Investors page):
-- `250828_Synergy-03457.jpg` - Professional executive headshot from Synergy photoshoot {pos:5}
-- `250828_Synergy-03462.jpg` - Professional executive headshot from Synergy photoshoot {pos:5}
-- `250828_Synergy-03467.jpg` - Professional executive headshot from Synergy photoshoot {pos:5}
-- `250828_Synergy-3437.jpg` - Professional executive headshot from Synergy photoshoot {pos:5}
-- `250828_Synergy-3452.jpg` - Professional executive headshot from Synergy photoshoot {pos:5}
+- `250828_Synergy-03457.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
+- `250828_Synergy-03462.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
+- `250828_Synergy-03467.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
+- `250828_Synergy-3437.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
+- `250828_Synergy-3452.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
 
-### Black & White Headshots (Used on Employers page):
-- `headshot-black-and-white-full-smile.jpg` - Professional B&W headshot {pos:5}
-- `headshot-black-and-white-half-smile.jpg` - Professional B&W headshot {pos:5}
-- `headshot-black-and-white-serious.jpg` - Professional B&W headshot {pos:5}
-- `headshot-full-smile.jpg` - Professional color headshot {pos:5}
-- `headshot-half-smile.jpg` - Professional color headshot {pos:5}
+### Black & White Headshots (Used on Employers page)
+- `headshot-black-and-white-full-smile.jpg` - Professional B&W headshot {pos:7}
+- `headshot-black-and-white-half-smile.jpg` - Professional B&W headshot {pos:7}
+- `headshot-black-and-white-serious.jpg` - Professional B&W headshot {pos:7}
+- `headshot-full-smile.jpg` - Professional color headshot {pos:7}
+- `headshot-half-smile.jpg` - Professional color headshot {pos:7}
 
 ---
 
 ## 📹 VIDEO FILES
 
 ### Needs Context:
-- `first-guinness-in-a-year.MOV` - **NEEDS CONTEXT** (in Curious, Fans folders) {pos:5}
-- `new-shoes.MOV` - **NEEDS CONTEXT** (in Curious, Fans folders) {pos:5}
-- `weak-hand-three.MOV` - **NEEDS CONTEXT** (in Curious, Fans, Suitors folders) {pos:5}
+- `first-guinness-in-a-year.MOV` - I tried to go a year without drink, I did it. All of age 26 with no drink! This was my first pint in over a year (in Curious, Fans folders) {pos:5}
+- `new-shoes.MOV` -My favourite shoes of all time dont @ me (in Curious, Fans folders) {pos:5}
+- `weak-hand-three.MOV` - My bad hand is better than your good hand (in Curious, Fans, Suitors folders) {pos:5}
 
 ---
 
@@ -397,13 +398,90 @@ Add `{pos:X}` after the context, where X is 1-10.
 
 ---
 
+## 🆕 NEWLY ADDED PHOTOS - NEEDS CONTEXT (50 photos)
+
+**Last Added:** February 2, 2026
+
+### ROOT DIRECTORY - New Photos (35 photos)
+
+Personal, Social & Event Photos:
+- `ALFIE.jpg` - This is my crazy cousin Alfie  {pos:5}
+- `ALFIE2.jpg` - This is my crazy cousin Alfie {pos:7}
+- `AllIwantforchristmasisyou.PNG` - I am so bloody funny (This is my teen cousin she hates me) {pos:7}
+- `BaldoyleBros.JPG` - Myself andf ADK {pos:5}
+- `BeReal_wherethehustlersat.JPG` - AYO WHERE THE HUSTLERS AT!?! {pos:7}
+- `BohsMaxxing.jpg` - Mon the Bohs {pos:7}
+- `Darts.jpg` - New Obsession - Darts {pos:7}
+- `DigitalDad.jpg` - My dad through my digital camera {pos:7}
+- `DigitalMam.jpg` - My mam through my digital camera {pos:7}
+- `DogpatchGirls.jpg` - My Dogpatch girlies {pos:7}
+- `EricOfWizards.jpg` - Dont mess with the Wizard {pos:8}
+- `GavxSineadxAdam.JPG` - My increidbly talented friends Sinead and Adam {pos:8}
+- `GotThatDAWGinMe.jpg` - WOOF WOOF {pos:5}
+- `HotPotSquad.jpeg` - Teaching the Chinese about Chinese food {pos:6}
+- `I_dont_smoke.JPG` - I dont smoke but I feel cool af {pos:8}
+- `IrishFlagDigital.jpg` - Ooh Ah {pos:8}
+- `PatrickSquared.JPG` - My two favourite Patricks {pos:5}
+- `RingRingSheinIsCalling.JPG` - Result of a Shein Christmas Kris Kindle {pos:7}
+- `SadBoysatCityHall.jpeg` - Best dressed boys at the National Start Up Awards {pos:7}
+- `SirRalph.jpeg` - Such a distinguished gentleman  {pos:7}
+- `TheBoysDigitalSelfie.JPG` - Taking my digital camera for a spin  {pos:5}
+- `TheHomers.jpeg` - It's because of the Homers isn't it (Best gift I've ever recieved) {pos:5}
+- `TheViscountBoys.JPG` - 80% chance you'll find these boys in the Viscount {pos:5}
+- `Myfirstflowers.jpeg` - My first flower arrangement (Yeah I made them myself) {pos:5}
+
+Professional/Achievement Photos:
+- `DCU_Nov_OpenDay.JPG` - Back to the Old Stomping ground for the DCU open day! {pos:5}
+- `IrishIndependentArticle.jpg` - Taking over the National News {pos:7}
+- `Me_and_the_Examinaite_team.JPG` - teaching these kids a thing or two {pos:7}
+- `MeandNanawithIrishTimes.jpeg` - Tired but Making Nana proud {pos:5}
+- `NationalStartUpAwardswAidan.jpeg` - The Teacher-Tech duo revolutionising education {pos:7}
+- `Pitching_at_AmazonHQ_ThePitchUK.JPG` - Professional Yapper{pos:6}
+- `Pitching_at_AmazonHQ_ThePitchUK2.JPG` - Still yapping {pos:6}
+- `ThePitchUKFinalist.jpeg` - Finalist ;* {pos:7}
+- `TheIrishTimesArticle.jpg` - Who's this guy {pos:8}
+
+Fitness Photos:
+- `PostHalfMarathon.jpeg` - PostHalfMarathon {pos:5}
+- `PreHalfMarathon.jpeg` - PreHalfMarathon {pos:5}
+
+### PROFILE AVATARS (8 photos)
+Marketing page profile images:
+- `curious.png` - Profile avatar for Curious/Stalkers persona {pos:5}
+- `employers.png` - Profile avatar for Employers persona {pos:5}
+- `engineers.png` - Profile avatar for Techies persona {pos:5}
+- `fans.png` - Profile avatar for Fans persona {pos:5}
+- `gavin.png` - General profile avatar {pos:5}
+- `investors.png` - Profile avatar for Investors persona {pos:5}
+- `suitors.png` - Profile avatar for Suitors persona {pos:5}
+- `techies.png` - Profile avatar for Techies persona {pos:5}
+
+### PROJECTS (1 photo)
+- `dronan-questions.jpg` - **NEEDS CONTEXT** (project screenshot) {pos:5}
+
+### GENERAL/LOGOS (5 SVG files)
+Social media and platform logos:
+- `calendly-logo.svg` - Calendly logo (no context needed)
+- `github-logo.svg` - GitHub logo (no context needed)
+- `gmail-logo.svg` - Gmail logo (no context needed)
+- `instagram-logo.svg` - Instagram logo (no context needed)
+- `linkedin-logo.svg` - LinkedIn logo (no context needed)
+
+### DUPLICATE FILES (Already documented but appear in multiple directories)
+- `basketball-photoshoot.JPG` - Appears in fans and suitors folders (already documented)
+
+---
+
 ## 📊 SUMMARY STATISTICS
 
-### Photos with Complete Context: ~199 photos ✅ (+19 new contexts added!)
-### Photos Needing Context: ~16 photos
+### Photos with Complete Context: ~199 photos ✅
+### Photos Needing Context: ~59 photos (including 43 newly added)
+### Profile Avatars: 8 photos (documented)
+### General Logos: 5 SVG files (no context needed)
 ### Placeholder/Missing Photos: ~40 files (project screenshots and blog images)
 ### Video Files Needing Context: 3 files
 ### HEIC Files Needing Context: 8 files
+### **TOTAL PHOTOS IN PROJECT: 280+ photos**
 
 ### By Persona:
 - **Curious:** 71 total files (15 used, 56 need context/unused)
