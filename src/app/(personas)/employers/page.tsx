@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import NetflixCard from '@/components/NetflixCard';
 import ContactModal from '@/components/ContactModal';
+import Footer from '@/components/Footer';
 import JsonLd, { personSchema } from '@/components/JsonLd';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
@@ -79,45 +80,6 @@ export default function EmployersPage() {
             />
           </div>
         </div>
-
-        {/* Professional Headshots */}
-        <NavSection title="Professional Headshots">
-          <NetflixCard
-            title="Full Smile"
-            subtitle="Professional headshot"
-            description="Professional color headshot - full smile."
-            imageUrl="/images/personas/employers/headshot-full-smile.jpg"
-            tags={["Headshot", "Professional", "Color"]}
-          />
-          <NetflixCard
-            title="Half Smile"
-            subtitle="Professional headshot"
-            description="Professional color headshot - half smile."
-            imageUrl="/images/personas/employers/headshot-half-smile.jpg"
-            tags={["Headshot", "Professional", "Subtle"]}
-          />
-          <NetflixCard
-            title="B&W Full Smile"
-            subtitle="Black & white"
-            description="Professional B&W headshot - full smile."
-            imageUrl="/images/personas/employers/headshot-black-and-white-full-smile.jpg"
-            tags={["B&W", "Headshot", "Classic"]}
-          />
-          <NetflixCard
-            title="B&W Half Smile"
-            subtitle="Black & white"
-            description="Professional B&W headshot - half smile."
-            imageUrl="/images/personas/employers/headshot-black-and-white-half-smile.jpg"
-            tags={["B&W", "Headshot", "Elegant"]}
-          />
-          <NetflixCard
-            title="B&W Serious"
-            subtitle="Black & white"
-            description="Professional B&W headshot - serious."
-            imageUrl="/images/personas/employers/headshot-black-and-white-serious.jpg"
-            tags={["B&W", "Serious", "Executive"]}
-          />
-        </NavSection>
 
         {/* Examinaite Project */}
         <NavSection title="Flagship Project: Examinaite">
@@ -356,7 +318,7 @@ export default function EmployersPage() {
             title="Cybersecurity Podcast"
             subtitle="My first podcast invite!!"
             description="My first podcast invite!! - discussing cybersecurity and edtech"
-            imageUrl="/images/personas/employers/podcast-cybersecurity.JPG"
+            imageUrl="/images/projects/podcast-cybersecurity.JPG"
             tags={["Podcast", "Cybersecurity", "EdTech"]}
             imagePosition={5}
           />
@@ -386,55 +348,14 @@ export default function EmployersPage() {
           />
         </NavSection>
 
-        {/* Athletic Background */}
-        <NavSection title="Athletic Background">
-          <NetflixCard
-            title="Basketball Scholarship"
-            subtitle="Ulster University"
-            description="Basketball scholarship recipient - demonstrating dedication, teamwork, and performance under pressure."
-            imageUrl="/images/personas/employers/bball-scholarship.JPG"
-            tags={["Scholarship", "Basketball", "Ulster"]}
-            imagePosition={8}
-          />
-          <NetflixCard
-            title="Pre-Half Marathon"
-            subtitle="PreHalfMarathon"
-            description="PreHalfMarathon - ready to go!"
-            imageUrl="/images/PreHalfMarathon.jpeg"
-            tags={["Marathon", "Fitness", "Running"]}
-            imagePosition={5}
-          />
-          <NetflixCard
-            title="Post-Half Marathon"
-            subtitle="PostHalfMarathon"
-            description="PostHalfMarathon - completed and exhausted"
-            imageUrl="/images/PostHalfMarathon.jpeg"
-            tags={["Marathon", "Achievement", "Endurance"]}
-            imagePosition={5}
-          />
-          <NetflixCard
-            title="Got That DAWG in Me"
-            subtitle="WOOF WOOF"
-            description="WOOF WOOF - competitive spirit"
-            imageUrl="/images/GotThatDAWGinMe.jpg"
-            tags={["Competitive", "Sports", "Attitude"]}
-            imagePosition={5}
-          />
-          <NetflixCard
-            title="Supporting Ireland at Olympics"
-            subtitle="COYBIG"
-            description="COYBIG - Come on you boys in green! Supporting Ireland at the Olympics"
-            imageUrl="/images/personas/curious/supporting-ireland-at-olympics.JPG"
-            tags={["Olympics", "Ireland", "Support"]}
-            imagePosition={5}
-          />
-        </NavSection>
-
         {/* Get In Touch */}
         <div className="netflix-section">
           <h2 className="netflix-section-title">Let&apos;s Work Together</h2>
           <ContactModal contactOptions={contactOptions} />
         </div>
+
+        {/* Footer */}
+        <Footer />
 
         {/* Custom Styles */}
         <style jsx>{`
