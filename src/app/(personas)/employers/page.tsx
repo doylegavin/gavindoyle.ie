@@ -4,7 +4,6 @@ import React from 'react';
 import Image from 'next/image';
 import NetflixCard from '@/components/NetflixCard';
 import ContactModal from '@/components/ContactModal';
-import Footer from '@/components/Footer';
 import JsonLd, { personSchema } from '@/components/JsonLd';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
@@ -353,9 +352,6 @@ export default function EmployersPage() {
           <h2 className="netflix-section-title">Let&apos;s Work Together</h2>
           <ContactModal contactOptions={contactOptions} />
         </div>
-
-        {/* Footer */}
-        <Footer />
 
         {/* Custom Styles */}
         <style jsx>{`
