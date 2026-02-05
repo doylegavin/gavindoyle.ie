@@ -37,7 +37,7 @@ export default function AboutPage() {
           <section className="bio-section">
             <h2>About</h2>
             <p>
-              I&apos;m an Irish educator-turned-founder and software developer based in Dublin. After spending 7 years teaching PE and Mathematics in secondary schools, I founded <a href="https://examinaite.ie/" target="_blank" rel="noopener noreferrer">Examinaite</a>, an AI-powered Leaving Certificate revision platform that has served over 1,000 students in its first three months.
+              I&apos;m an Irish educator-turned-founder and software developer based in Dublin. After spending 7 years teaching PE and Mathematics in secondary schools, I founded <a href="https://examinaite.ie/" target="_blank" rel="noopener noreferrer">Examinaite</a>, an AI-powered Leaving Certificate revision platform that has served over 2,000 students.
             </p>
             <p>
               My journey from the classroom to tech entrepreneurship was driven by a simple observation: students needed better, more personalized tools to succeed in high-stakes exams. I taught myself full-stack development and built Examinaite to provide adaptive, AI-powered revision that actually works. The platform combines my teaching experience with modern technology to deliver personalized exam preparation at scale.

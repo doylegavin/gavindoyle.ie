@@ -1,30 +1,25 @@
-'use client';
-import Footer from '@/components/Footer';
-import Link from 'next/link';
+import { Metadata } from 'next';
+import SuitorsClientLayout from './client-layout';
+
+export const metadata: Metadata = {
+  title: 'About Gavin Doyle | Dublin-Based Educator & Founder',
+  description: 'Dublin native combining education, sports, and technology. Former PE and Maths teacher turned startup founder. Adventure seeker, fitness enthusiast, and passionate about Irish language and culture.',
+  openGraph: {
+    title: 'About Gavin Doyle | Dublin-Based Educator & Founder',
+    description: 'Dublin native combining education, sports, and technology. Former teacher turned startup founder and adventure seeker.',
+    url: 'https://gavindoyle.ie/suitors',
+    siteName: 'Gavin Doyle',
+    type: 'profile',
+  },
+  alternates: {
+    canonical: 'https://gavindoyle.ie/suitors',
+  },
+};
 
 export default function SuitorsLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <button className="back-btn" onClick={() => window.location.href = '/'}>
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/suitors">About Me</Link></li>
-            <li><Link href="/about">Personal</Link></li>
-            <li><Link href="/projects">Adventures</Link></li>
-            <li><Link href="/contact">Connect</Link></li>
-          </ul>
-        </nav>
-      </header>
-      {children}
-          <Footer />
-    </>
-  );
+  return <SuitorsClientLayout>{children}</SuitorsClientLayout>;
 }

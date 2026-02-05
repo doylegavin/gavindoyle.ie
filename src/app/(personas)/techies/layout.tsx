@@ -1,30 +1,25 @@
-'use client';
-import Footer from '@/components/Footer';
-import Link from 'next/link';
+import { Metadata } from 'next';
+import TechiesClientLayout from './client-layout';
+
+export const metadata: Metadata = {
+  title: 'Gavin Doyle Tech Stack | Next.js, React, Python, AI Developer',
+  description: 'Self-taught developer specializing in Next.js, React, TypeScript, Python, and AI integration. Built production apps serving 2,000+ users. Experience with OpenAI API, Supabase, Stripe, and modern web development.',
+  openGraph: {
+    title: 'Gavin Doyle Tech Stack | Next.js, React, Python, AI Developer',
+    description: 'Self-taught developer specializing in Next.js, React, TypeScript, Python, and AI integration. Built production apps serving 2,000+ users.',
+    url: 'https://gavindoyle.ie/techies',
+    siteName: 'Gavin Doyle',
+    type: 'profile',
+  },
+  alternates: {
+    canonical: 'https://gavindoyle.ie/techies',
+  },
+};
 
 export default function TechiesLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <button className="back-btn" onClick={() => window.location.href = '/'}>
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/techies">Overview</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="/about">Tech Stack</Link></li>
-            <li><Link href="/contact">Connect</Link></li>
-          </ul>
-        </nav>
-      </header>
-      {children}
-          <Footer />
-    </>
-  );
+  return <TechiesClientLayout>{children}</TechiesClientLayout>;
 }

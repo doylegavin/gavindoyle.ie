@@ -15,18 +15,23 @@ export default function JsonLd({ data }: JsonLdProps) {
 export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://gavindoyle.ie/#gavin",
   "name": "Gavin Doyle",
   "jobTitle": "Founder & CEO",
   "worksFor": {
     "@type": "Organization",
-    "name": "Examinaite"
+    "name": "Examinaite",
+    "url": "https://examinaite.ie"
   },
-  "description": "Teacher-turned-founder building AI-powered education tools. Former PE & Maths teacher with 7+ years classroom experience, now CEO of Examinaite.",
-  "url": "https://yoursite.com",
+  "description": "Irish educator-turned-founder and software developer. After 7 years teaching PE and Mathematics, founded Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.",
+  "url": "https://gavindoyle.ie",
+  "image": "https://gavindoyle.ie/images/personas/employers/headshot-full-smile.jpg",
   "sameAs": [
-    "https://instagram.com/gavinthecraic",
     "https://www.linkedin.com/in/doyle-gavin",
-    "https://github.com/doylegavin"
+    "https://github.com/doylegavin",
+    "https://instagram.com/gavinthecraic",
+    "https://x.com/gavindoyle_ie",
+    "https://www.youtube.com/@GavinDoyle-ie"
   ],
   "address": {
     "@type": "PostalAddress",
@@ -37,17 +42,30 @@ export const personSchema = {
     {
       "@type": "EducationalOrganization",
       "name": "Dublin City University"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Ulster University"
     }
   ],
   "knowsAbout": [
-    "Software Development",
+    "EdTech",
     "Education Technology",
     "Artificial Intelligence",
+    "AI-Powered Education",
+    "Leaving Certificate",
     "Irish Language Technology",
-    "React",
+    "Irish Language (Gaeilge)",
+    "Software Development",
+    "Full-Stack Development",
     "Next.js",
+    "React",
     "TypeScript",
+    "Python",
     "Teaching",
+    "Mathematics Education",
+    "Physical Education",
+    "Strength & Conditioning",
     "Basketball"
   ]
 };

@@ -2,10 +2,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gavin Doyle | Founder & CEO of Examinaite',
-  description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 1,000+ students.',
+  description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.',
   openGraph: {
     title: 'Gavin Doyle | Founder & CEO of Examinaite',
-    description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 1,000+ students.',
+    description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.',
     url: 'https://gavindoyle.ie',
     siteName: 'Gavin Doyle',
     images: [

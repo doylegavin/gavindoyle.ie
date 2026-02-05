@@ -9,7 +9,7 @@ export const gavinDoylePersonSchema = {
       "@id": "https://gavindoyle.ie/#person",
       "name": "Gavin Doyle",
       "alternateName": ["Gav", "Mr Doyle", "Gavinthecraic"],
-      "description": "Irish entrepreneur and education technology founder. Founder and CEO of Examinaite.",
+      "description": "Irish educator-turned-founder and software developer. After 7 years teaching PE and Mathematics, founded Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.",
       "url": "https://gavindoyle.ie/",
       "image": {
         "@type": "ImageObject",
@@ -24,18 +24,46 @@ export const gavinDoylePersonSchema = {
         "@id": "https://gavindoyle.ie/#examinaite"
       },
       "nationality": "Irish",
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Dublin City University"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Ulster University"
+        }
+      ],
       "knowsAbout": [
-        "Education technology",
-        "Artificial intelligence in education",
-        "Leaving Certificate exam preparation",
-        "Assessment design",
-        "Adaptive learning"
+        "EdTech",
+        "Education Technology",
+        "Artificial Intelligence",
+        "AI in Education",
+        "Leaving Certificate",
+        "Irish Education System",
+        "Exam Preparation",
+        "Assessment Design",
+        "Adaptive Learning",
+        "Irish Language Technology",
+        "Irish Language (Gaeilge)",
+        "Full-Stack Development",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Python",
+        "Teaching",
+        "Mathematics Education",
+        "Physical Education",
+        "Strength & Conditioning",
+        "Basketball"
       ],
       "sameAs": [
         "https://www.wikidata.org/wiki/Q138010338",
         "https://www.linkedin.com/in/doyle-gavin",
         "https://github.com/doylegavin",
-        "https://www.instagram.com/gavinthecraic/"
+        "https://www.instagram.com/gavinthecraic/",
+        "https://x.com/gavindoyle_ie",
+        "https://www.youtube.com/@GavinDoyle-ie"
       ],
       "subjectOf": [
         {
@@ -107,7 +135,7 @@ export const examinaiteOrganizationSchema = {
   "legalName": "Examinaite Limited",
   "url": "https://examinaite.ie/",
   "logo": "https://examinaite.ie/images/logo.png",
-  "description": "AI-powered Leaving Certificate revision platform serving 1,000+ Irish students. Adaptive difficulty and personalized exam preparation.",
+  "description": "AI-powered Leaving Certificate revision platform serving 2,000+ Irish students. Adaptive difficulty and personalized exam preparation.",
 
   "founder": {
     "@type": "Person",

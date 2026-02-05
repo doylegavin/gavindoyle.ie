@@ -130,7 +130,8 @@ export default function Home() {
 
       {/* Who's Watching Page */}
       <div className={`whos-watching ${!isLoading ? 'active' : ''}`}>
-        <h1>Who&apos;s watching?</h1>
+        <h1 className="seo-hidden">Gavin Doyle - Founder & CEO of Examinaite</h1>
+        <h3 className="whos-watching-title">Who&apos;s watching?</h3>
         <div className="profiles-container">
           <div className="profile" onClick={() => window.location.href = '/employers'}>
             <div className="profile-avatar">
@@ -203,6 +204,15 @@ export default function Home() {
             <div className="profile-name">Techies</div>
           </div>
         </div>
+
+        <nav className="persona-text-links" aria-label="Persona pages">
+          <a href="/employers">Employers</a>
+          <a href="/fans">Fans</a>
+          <a href="/suitors">Suitors</a>
+          <a href="/curious">Curious</a>
+          <a href="/techies">Techies</a>
+          <a href="/investors">Investors</a>
+        </nav>
       </div>
 
       {/* About Section - SEO Optimized for Google Knowledge Panel */}
@@ -215,7 +225,7 @@ export default function Home() {
               <div className="about-hero">
                 <div className="about-text-intro">
                   <p className="lead">
-                    Irish educator-turned-founder building the future of education technology. After 7 years teaching Mathematics and PE in secondary schools, I founded <a href="https://examinaite.ie/" target="_blank" rel="noopener noreferrer">Examinaite</a>, an AI-powered Leaving Certificate revision platform that has served over 1,000 students in its first 3 months.
+                    Irish educator-turned-founder building the future of education technology. After 7 years teaching Mathematics and PE in secondary schools, I founded <a href="https://examinaite.ie/" target="_blank" rel="noopener noreferrer">Examinaite</a>, an AI-powered Leaving Certificate revision platform that has served over 2,000 students.
                   </p>
 
                   <p>
@@ -266,6 +276,20 @@ export default function Home() {
                   <p>Full-stack development with Next.js, TypeScript, React, PostgreSQL, Vercel. All projects achieve 95+ Lighthouse scores. Specialized in EdTech, AI integration, and building scalable web applications.</p>
                 </div>
 
+                <div className="quick-links-section">
+                  <h3>Learn More</h3>
+                  <div className="quick-links">
+                    <a href="/about" className="quick-link">
+                      <strong>Full Bio</strong>
+                      <span>Complete background, education, and career journey</span>
+                    </a>
+                    <a href="/about/press" className="quick-link">
+                      <strong>Press & Media</strong>
+                      <span>Featured in Irish Times, Irish Independent, and more</span>
+                    </a>
+                  </div>
+                </div>
+
                 <div className="get-in-touch-section">
                   <h3>Get In Touch</h3>
                   <p className="contact-subtitle">Choose your preferred way to connect</p>
@@ -280,6 +304,59 @@ export default function Home() {
     <Footer />
 
     <style jsx>{`
+      .seo-hidden {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+
+      .whos-watching-title {
+        font-size: 3.5rem;
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 2px;
+      }
+
+      .persona-text-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .persona-text-links a {
+        color: #e5e5e5;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: color 0.2s;
+        position: relative;
+      }
+
+      .persona-text-links a::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #e50914;
+        transition: width 0.3s;
+      }
+
+      .persona-text-links a:hover {
+        color: #e50914;
+      }
+
+      .persona-text-links a:hover::after {
+        width: 100%;
+      }
+
       .about-section {
         background: #0a0a0a;
         color: #e5e5e5;
@@ -354,13 +431,47 @@ export default function Home() {
         text-decoration: underline;
       }
 
-      .achievements, .education, .tech-stack, .get-in-touch-section {
+      .achievements, .education, .tech-stack, .quick-links-section, .get-in-touch-section {
         margin-top: 3rem;
         padding: 3rem 4rem;
         background: #1a1a1a;
         border-radius: 8px;
         border-left: 4px solid #e50914;
         width: 100%;
+      }
+
+      .quick-links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .quick-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1.5rem;
+        background: #0a0a0a;
+        border-radius: 8px;
+        border: 1px solid #333;
+        transition: all 0.2s;
+        text-decoration: none !important;
+      }
+
+      .quick-link:hover {
+        border-color: #e50914;
+        transform: translateY(-2px);
+        opacity: 1 !important;
+      }
+
+      .quick-link strong {
+        color: white;
+        font-size: 1.1rem;
+      }
+
+      .quick-link span {
+        color: #b3b3b3;
+        font-size: 0.95rem;
       }
 
       .achievements h3, .education h3, .tech-stack h3, .get-in-touch-section h3 {
@@ -441,8 +552,12 @@ export default function Home() {
           font-size: 1.1rem;
         }
 
-        .achievements, .education, .tech-stack, .get-in-touch-section {
+        .achievements, .education, .tech-stack, .quick-links-section, .get-in-touch-section {
           padding: 2rem 1.5rem;
+        }
+
+        .quick-links {
+          grid-template-columns: 1fr;
         }
       }
     `}</style>

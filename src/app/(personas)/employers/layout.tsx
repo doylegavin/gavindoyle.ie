@@ -1,41 +1,25 @@
-'use client';
-import Link from 'next/link';
-import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+import EmployersClientLayout from './client-layout';
+
+export const metadata: Metadata = {
+  title: 'Hire Gavin Doyle | Full-Stack Developer & EdTech Founder',
+  description: 'Experienced full-stack developer and founder with 7 years teaching experience. Built Examinaite serving 2,000+ students. Expertise in Next.js, React, TypeScript, Python, AI integration, and scalable web applications.',
+  openGraph: {
+    title: 'Hire Gavin Doyle | Full-Stack Developer & EdTech Founder',
+    description: 'Experienced full-stack developer and founder. Built Examinaite serving 2,000+ students. Expertise in Next.js, React, TypeScript, Python, and AI integration.',
+    url: 'https://gavindoyle.ie/employers',
+    siteName: 'Gavin Doyle',
+    type: 'profile',
+  },
+  alternates: {
+    canonical: 'https://gavindoyle.ie/employers',
+  },
+};
 
 export default function EmployersLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
-  return (
-    <>
-      <button
-        className="back-btn"
-        onClick={() => window.location.href = '/'}
-      >
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/employers">Overview</Link></li>
-            <li><a href="/cv/Gavin_Doyle_CV.pdf" download>CV</a></li>
-            <li><a onClick={() => scrollToSection('projects')} style={{ cursor: 'pointer' }}>Projects</a></li>
-            <li><a onClick={() => scrollToSection('awards')} style={{ cursor: 'pointer' }}>Awards</a></li>
-            <li><a onClick={() => scrollToSection('press')} style={{ cursor: 'pointer' }}>Press</a></li>
-          </ul>
-        </nav>
-      </header>
-      {children}
-      <Footer />
-    </>
-  );
+  return <EmployersClientLayout>{children}</EmployersClientLayout>;
 }
