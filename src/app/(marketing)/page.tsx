@@ -204,15 +204,6 @@ export default function Home() {
             <div className="profile-name">Techies</div>
           </div>
         </div>
-
-        <nav className="persona-text-links" aria-label="Persona pages">
-          <a href="/employers">Employers</a>
-          <a href="/fans">Fans</a>
-          <a href="/suitors">Suitors</a>
-          <a href="/curious">Curious</a>
-          <a href="/techies">Techies</a>
-          <a href="/investors">Investors</a>
-        </nav>
       </div>
 
       {/* About Section - SEO Optimized for Google Knowledge Panel */}
@@ -319,42 +310,6 @@ export default function Home() {
         text-align: center;
         font-weight: 400;
         letter-spacing: 2px;
-      }
-
-      .persona-text-links {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        margin-top: 3rem;
-        padding: 1rem;
-        flex-wrap: wrap;
-      }
-
-      .persona-text-links a {
-        color: #e5e5e5;
-        text-decoration: none;
-        font-size: 1.1rem;
-        transition: color 0.2s;
-        position: relative;
-      }
-
-      .persona-text-links a::after {
-        content: '';
-        position: absolute;
-        bottom: -4px;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background: #e50914;
-        transition: width 0.3s;
-      }
-
-      .persona-text-links a:hover {
-        color: #e50914;
-      }
-
-      .persona-text-links a:hover::after {
-        width: 100%;
       }
 
       .about-section {

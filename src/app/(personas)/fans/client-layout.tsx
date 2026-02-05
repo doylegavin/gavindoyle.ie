@@ -1,5 +1,6 @@
 'use client';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default function FansClientLayout({
   children,
@@ -14,6 +15,18 @@ export default function FansClientLayout({
       >
         ← Back to Profiles
       </button>
+      <header className="header">
+        <nav className="nav">
+          <div className="nav-logo">G</div>
+          <ul className="nav-links">
+            <li><Link href="/fans">Home</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/projects">Gallery</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/contact">Connect</Link></li>
+          </ul>
+        </nav>
+      </header>
       {children}
       <Footer />
     </>
