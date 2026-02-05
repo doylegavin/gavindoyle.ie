@@ -3,6 +3,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Gavin Doyle | Founder & CEO of Examinaite',
   description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.',
+  verification: {
+    google: 'VvZ9-TGxO8GiVtAUJeoXUJQqn2qYtWF2N7n5tpOD4IE',
+  },
   openGraph: {
     title: 'Gavin Doyle | Founder & CEO of Examinaite',
     description: 'Irish educator-turned-founder building the future of education technology. Founder & CEO of Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.',
