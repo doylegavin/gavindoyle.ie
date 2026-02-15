@@ -34,7 +34,7 @@ export default function FansPage() {
             description="Our basketball club had a photoshoot day to promote the club and we RAN with it. I just wanna ball with my bros."
             imageUrl="/images/personas/fans/basketball-photoshoot-main.JPG"
             tags={["Basketball", "Photoshoot", "Bros"]}
-            imagePosition={8}
+            imagePosition={10}
           />
           <NetflixCard
             title="Team Photo"
@@ -74,6 +74,7 @@ export default function FansPage() {
             description="Don't be getting fresh with me or this'll be you!"
             imageUrl="/images/personas/fans/basketball-photoshoot-kicking.JPG"
             tags={["Fun", "Athletic", "Playful"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Laughing"
@@ -105,6 +106,7 @@ export default function FansPage() {
             description="This could us but you playin'"
             imageUrl="/images/personas/fans/basketball-photoshoot-pregnant.JPG"
             tags={["Funny", "Playful", "Humor"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Serious"
@@ -120,6 +122,7 @@ export default function FansPage() {
             description="Teamwork makes the dream work <3"
             imageUrl="/images/personas/fans/basketball-photoshoot-wheelbarrow.JPG"
             tags={["Teamwork", "Fun", "Partner"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Classic Shot"
@@ -155,6 +158,7 @@ export default function FansPage() {
             description="WEATHERPROOOOOOFFFFFF - rain can't stop us."
             imageUrl="/images/personas/fans/baller-squad-weatherproof.jpg"
             tags={["Weatherproof", "Dedication", "Rain"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Summer League 2022"
@@ -170,6 +174,7 @@ export default function FansPage() {
             description="Dont jump and pass!! - classic mistake."
             imageUrl="/images/personas/fans/basketball-SL.jpg"
             tags={["Basketball", "Skills", "Game"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Scholarship Days"
@@ -177,6 +182,7 @@ export default function FansPage() {
             description="How cute am I - basketball scholarship days."
             imageUrl="/images/personas/fans/bball-scholarship.JPG"
             tags={["Scholarship", "Young", "Cute"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="White Man Can Jump"
@@ -192,6 +198,7 @@ export default function FansPage() {
             description="The Luka Doncic of Division 7 - stat sheet stuffer on our team's funny Instagram account."
             imageUrl="/images/personas/fans/graphic_of_me_player_of_the_game_basketball.JPG.JPG"
             tags={["Stats", "Luka", "Division 7"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="National Cup Champions"
@@ -199,6 +206,7 @@ export default function FansPage() {
             description="The aftermath in the changing room in the National Basketball Arena with my Ulster University teammate after our team had won the National Cup."
             imageUrl="/images/personas/fans/winning-basketball-national-cup.JPG"
             tags={["Champions", "National Cup", "Ulster"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -210,6 +218,7 @@ export default function FansPage() {
             description="We are immortalised forever on the Walls of Ardscoil Rís Sports Hall."
             imageUrl="/images/personas/fans/schoolball.JPG"
             tags={["Ardscoil Rís", "Champions", "Legacy"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Leinster Champions"
@@ -217,6 +226,7 @@ export default function FansPage() {
             description="We are immortalised forever on the Walls of Ardscoil Rís Sports Hall - winning Leinster nearly every year."
             imageUrl="/images/personas/fans/schoolball2.JPG"
             tags={["Leinster", "Champions", "School"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="All Ireland"
@@ -224,6 +234,7 @@ export default function FansPage() {
             description="We are immortalised forever on the Walls of Ardscoil Rís Sports Hall - some All Ireland success too."
             imageUrl="/images/personas/fans/schoolball3.JPG"
             tags={["All Ireland", "Success", "Pride"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="The Dynasty"
@@ -231,6 +242,7 @@ export default function FansPage() {
             description="We are immortalised forever on the Walls of Ardscoil Rís Sports Hall - a very successful basketball team."
             imageUrl="/images/personas/fans/schoolball4.JPG"
             tags={["Dynasty", "Basketball", "Legacy"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -525,6 +537,7 @@ export default function FansPage() {
             description="HE LIVES UNDAAA A WAAATAA FALL - Powerscourt beauty."
             imageUrl="/images/personas/fans/powerscourt.JPG"
             tags={["Powerscourt", "Waterfall", "Ireland"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Gone Fishing"
@@ -532,6 +545,7 @@ export default function FansPage() {
             description="Fishing + pints + dad = great time."
             imageUrl="/images/personas/fans/gone-fishing.JPG"
             tags={["Fishing", "Dad", "Quality Time"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Parents Visit"
@@ -539,6 +553,7 @@ export default function FansPage() {
             description="Mam and Dad's first time in Belfast!"
             imageUrl="/images/personas/fans/parents-first-trip-to-belfast.JPG"
             tags={["Parents", "Belfast", "Family"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Boston Bound"
@@ -546,6 +561,7 @@ export default function FansPage() {
             description="Shipping off to Boston!! Matty Belfast + Boston = Matty Boston."
             imageUrl="/images/personas/fans/shipping-off-to-boston.JPG"
             tags={["Boston", "Travel", "Adventure"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="First Baseball"
@@ -553,6 +569,7 @@ export default function FansPage() {
             description="Gavin's first baseball game x - experiencing America."
             imageUrl="/images/personas/fans/my-first-baseball-game.JPG"
             tags={["Baseball", "America", "First"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Casement's SF"
@@ -560,6 +577,7 @@ export default function FansPage() {
             description="A gorgeous passage from the Visitors book, Casement's Bar, Mission District, San Francisco."
             imageUrl="/images/personas/fans/passage-from-visitors-book-casements-sf.jpg"
             tags={["SF", "Irish", "Bar"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Olympics Support"
@@ -567,6 +585,7 @@ export default function FansPage() {
             description="Me repping Ireland at the Paris 2024 Olympics, shouting for the Women's rugby 7s. I'm wearing my dad's 2002 world cup Ireland jersey, a classic and a family treasure. Maddison Levi for Australia was our favourite player at the tournament - MADDISON LEVI!"
             imageUrl="/images/personas/fans/supporting-ireland-at-olympics.JPG"
             tags={["Olympics", "Ireland", "Rugby"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -838,6 +857,7 @@ export default function FansPage() {
             description="I love Kneecap, and I want to be able to speak more Irish - so I built the kneecapp - I've taken all their songs and translated them from Irish to English (and English to Irish) to help me learn some Gaeilge while enjoying their music."
             imageUrl="/images/personas/fans/thekneecap.png"
             tags={["Kneecap", "Irish", "Translation"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -850,6 +870,7 @@ export default function FansPage() {
             imageUrl="/images/personas/fans/latte-art.JPG"
             tags={["Email", "Personal", "Chat"]}
             href="mailto:doyle.d.gavin@gmail.com"
+            imagePosition={5}
           />
           <NetflixCard
             title="Instagram"
@@ -858,6 +879,7 @@ export default function FansPage() {
             imageUrl="/images/personas/fans/]getting-coffee.JPG"
             tags={["Instagram", "Behind Scenes", "Dublin"]}
             href="https://instagram.com/gavinthecraic"
+            imagePosition={5}
           />
         </NavSection>
       </div>

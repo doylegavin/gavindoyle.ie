@@ -33,7 +33,7 @@ export default function CuriousPage() {
             description="Our basketball club had a photoshoot day to promote the club and we RAN with it. I just wanna ball with my bros."
             imageUrl="/images/personas/curious/basketball-photoshoot-main.JPG"
             tags={["Basketball", "Photoshoot", "Squad"]}
-            imagePosition={8}
+            imagePosition={10}
           />
           <NetflixCard
             title="Team Photo"
@@ -73,6 +73,7 @@ export default function CuriousPage() {
             description="Don't be getting fresh with me or this'll be you - martial arts crossover!"
             imageUrl="/images/personas/curious/basketball-photoshoot-kicking.JPG"
             tags={["Kick", "Fresh", "Fun"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Laughing"
@@ -104,6 +105,7 @@ export default function CuriousPage() {
             description="This could us but you playin' - messing around during the photoshoot."
             imageUrl="/images/personas/curious/basketball-photoshoot-pregnant.JPG"
             tags={["Funny", "Messing", "Basketball"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Serious Mode"
@@ -119,6 +121,7 @@ export default function CuriousPage() {
             description="Teamwork makes the dream work <3 - classic wheelbarrow pose."
             imageUrl="/images/personas/curious/basketball-photoshoot-wheelbarrow.JPG"
             tags={["Teamwork", "Fun", "Dreams"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -130,6 +133,7 @@ export default function CuriousPage() {
             description="WEATHERPROOOOOOFFFFFF - when rain can't stop the ballers."
             imageUrl="/images/personas/curious/baller-squad-weatherproof.jpg"
             tags={["Weatherproof", "Squad", "Dedication"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Summer League 2022"
@@ -145,6 +149,7 @@ export default function CuriousPage() {
             description="Dont jump and pass!! - classic basketball mistake we all make."
             imageUrl="/images/personas/curious/basketball-SL.jpg"
             tags={["Basketball", "Tip", "Pass"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Match Passing"
@@ -152,6 +157,7 @@ export default function CuriousPage() {
             description="Dont jump and pass!!! - action from the game."
             imageUrl="/images/bballmatchpassing.jpg"
             tags={["Basketball", "Match", "Action"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Scholarship Days"
@@ -159,6 +165,7 @@ export default function CuriousPage() {
             description="How cute am I - back when I got the basketball scholarship."
             imageUrl="/images/personas/curious/bball-scholarship.JPG"
             tags={["Scholarship", "Young", "Basketball"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Scholarship Photo"
@@ -182,6 +189,7 @@ export default function CuriousPage() {
             description="The Luka Doncic of Division 7 - when the stats speak for themselves."
             imageUrl="/images/personas/curious/graphic_of_me_player_of_the_game_basketball.JPG"
             tags={["Stats", "Luka", "Division 7"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="National Cup Winners"
@@ -189,6 +197,7 @@ export default function CuriousPage() {
             description="Winner Winner Pints for Dinner - winning the national basketball cup."
             imageUrl="/images/personas/fans/winning-basketball-national-cup.JPG"
             tags={["Winner", "National Cup", "Champions"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="2004 Drip"

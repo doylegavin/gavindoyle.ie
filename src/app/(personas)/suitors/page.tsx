@@ -118,6 +118,7 @@ export default function SuitorsPage() {
             description="Don't be getting fresh with me or this'll be you!"
             imageUrl="/images/personas/suitors/basketball-photoshoot-kicking.JPG"
             tags={["Fun", "Athletic", "Playful"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Laughing"
@@ -149,6 +150,7 @@ export default function SuitorsPage() {
             description="This could us but you playin'"
             imageUrl="/images/personas/suitors/basketball-photoshoot-pregnant.JPG"
             tags={["Funny", "Playful", "Humor"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Serious"
@@ -164,6 +166,7 @@ export default function SuitorsPage() {
             description="Teamwork makes the dream work <3"
             imageUrl="/images/personas/suitors/basketball-photoshoot-wheelbarrow.JPG"
             tags={["Teamwork", "Fun", "Partner"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Classic Shot"
@@ -183,6 +186,7 @@ export default function SuitorsPage() {
             description="Very Fine Very Art - appreciating the creative things."
             imageUrl="/images/personas/suitors/gav-with-art.JPG"
             tags={["Art", "Creative", "Culture"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Artsy Boy"
@@ -190,6 +194,7 @@ export default function SuitorsPage() {
             description="I'm an artsy boy - embracing my creative side."
             imageUrl="/images/artboy.JPG"
             tags={["Art", "Creative", "Personality"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Artsy Boy 2"
@@ -197,6 +202,7 @@ export default function SuitorsPage() {
             description="I'm an artsy boy - continuing the creative journey."
             imageUrl="/images/artboy2.JPG"
             tags={["Art", "Creative", "Vibes"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Artsy Boy 3"
@@ -204,6 +210,7 @@ export default function SuitorsPage() {
             description="I'm an artsy boy - living the creative life."
             imageUrl="/images/artboy3.JPG"
             tags={["Art", "Creative", "Lifestyle"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Getting Coffee"
@@ -211,6 +218,7 @@ export default function SuitorsPage() {
             description="Hey man do you like coffee man - daily ritual."
             imageUrl="/images/personas/suitors/me-getting-coffee.JPG"
             tags={["Coffee", "3fe", "Daily"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="3fe with Eric"
@@ -218,6 +226,7 @@ export default function SuitorsPage() {
             description="Me, in my favourite coffee shop, 3fe, getting served coffee by my favourite barista and friend, Eric the Wizard."
             imageUrl="/images/personas/fans/]getting-coffee.JPG"
             tags={["3fe", "Eric", "Coffee"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Latte Art"
@@ -225,6 +234,7 @@ export default function SuitorsPage() {
             description="The boys in 3fe have been teaching me to do some latte art - not bad ay!!!"
             imageUrl="/images/personas/fans/latte-art.JPG"
             tags={["Latte Art", "3fe", "Learning"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Woodwork"
@@ -232,6 +242,7 @@ export default function SuitorsPage() {
             description="Here's my LC woodwork project! - handmade."
             imageUrl="/images/personas/suitors/woodwork-project.JPG"
             tags={["Woodwork", "Handmade", "Creative"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Flower Arrangement"
@@ -239,6 +250,7 @@ export default function SuitorsPage() {
             description="My first flower arrangement (Yeah I made them myself)."
             imageUrl="/images/Myfirstflowers.jpeg"
             tags={["Flowers", "Creative", "Handmade"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -250,6 +262,7 @@ export default function SuitorsPage() {
             description="In the Scottish Mountains - love exploring nature."
             imageUrl="/images/personas/suitors/gav-in-scottish-mountains.jpg"
             tags={["Scotland", "Mountains", "Adventure"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Scotland Hike"
@@ -257,6 +270,7 @@ export default function SuitorsPage() {
             description="On a hike in Scotland - the views were incredible."
             imageUrl="/images/personas/suitors/gav-on-hike-scotland.jpg"
             tags={["Hiking", "Scotland", "Nature"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Italy Drinks"
@@ -264,6 +278,7 @@ export default function SuitorsPage() {
             description="In Italy out for drinkies - la dolce vita."
             imageUrl="/images/personas/suitors/me-in-italy-out-for-drinks.JPG"
             tags={["Italy", "Drinks", "Travel"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="SF Pier"
@@ -271,6 +286,7 @@ export default function SuitorsPage() {
             description="SF Pier ft. the seals - San Francisco adventures."
             imageUrl="/images/personas/suitors/me-on-sanfrancisco-pier.JPG"
             tags={["San Francisco", "Pier", "Seals"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Boston Bound"
@@ -278,6 +294,7 @@ export default function SuitorsPage() {
             description="Shipping off to Boston!! Matty Belfast + Boston = Matty Boston."
             imageUrl="/images/personas/suitors/shipping-off-to-boston.JPG"
             tags={["Boston", "Travel", "Adventure"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="First Baseball"
@@ -285,6 +302,7 @@ export default function SuitorsPage() {
             description="Gavin's first baseball game x - experiencing America."
             imageUrl="/images/personas/suitors/my-first-baseball-game.JPG"
             tags={["Baseball", "America", "First"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Casement's SF"
@@ -292,6 +310,7 @@ export default function SuitorsPage() {
             description="A gorgeous passage from the Visitors book, Casement's Bar, Mission District, San Francisco."
             imageUrl="/images/personas/suitors/passage-from-visitors-book-casements-sf.jpg"
             tags={["SF", "Irish", "Bar"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Vintage Paris"
@@ -299,6 +318,7 @@ export default function SuitorsPage() {
             description="Vintage lense of Paris - capturing the beauty."
             imageUrl="/images/personas/suitors/vintage-paris.JPG"
             tags={["Paris", "Vintage", "Beauty"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Paris Streets"

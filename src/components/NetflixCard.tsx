@@ -187,7 +187,7 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
                   alt={title}
                   fill
                   sizes="(max-width: 768px) 100vw, 80vw"
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'contain' }}
                 />
               </div>
               <div className="netflix-modal-info">

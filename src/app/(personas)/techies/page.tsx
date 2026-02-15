@@ -33,6 +33,7 @@ export default function EngineersPage() {
             description="JavaScript/TypeScript, React, Next.js, Tailwind CSS. I vibe-code fast, then harden with proper TypeScript and component architecture."
             imageUrl="/images/personas/techies/bart.png"
             tags={["React", "TypeScript", "Next.js", "Tailwind"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Backend"
@@ -40,6 +41,7 @@ export default function EngineersPage() {
             description="Python for data work, Node.js for APIs. FastAPI, Express, PostgreSQL. Keep it simple, keep it fast."
             imageUrl="/images/personas/techies/glorai1.png"
             tags={["Python", "Node.js", "FastAPI", "PostgreSQL"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Deployment"
@@ -47,6 +49,7 @@ export default function EngineersPage() {
             description="Vercel for frontend, AWS for backend. Docker containers, CI/CD pipelines. Ship fast, monitor everything."
             imageUrl="/images/personas/techies/thekneecap.png"
             tags={["Vercel", "AWS", "Docker", "CI/CD"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Strategy"
@@ -54,6 +57,7 @@ export default function EngineersPage() {
             description="Choose proven tools over shiny new ones. React, Next.js, Vercel - they're boring because they work. Focus on solving problems, not learning frameworks."
             imageUrl="/images/personas/techies/bart2.png"
             tags={["Proven tools", "React", "Reliability"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -65,6 +69,7 @@ export default function EngineersPage() {
             description="This is a picture of me presenting Glór AI - One of Ireland's first ever voicebots at the National AI Challenge 2025, Ireland's largest ever hackathon. We got to the final!!"
             imageUrl="/images/personas/techies/NAIC.JPG"
             tags={["AI", "Voicebot", "Hackathon", "Finalist"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="NAIC Team"
@@ -72,6 +77,7 @@ export default function EngineersPage() {
             description="National AI Challenge team photo - Avengers fr."
             imageUrl="/images/personas/techies/NAIC-team.jpeg"
             tags={["Team", "NAIC", "Avengers"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -83,6 +89,7 @@ export default function EngineersPage() {
             description="GlórAI - Ireland's first Irish-language AI voice companion. Built with OpenAI Whisper, GPT-4, and Web Speech API."
             imageUrl="/images/personas/techies/glorai1.png"
             tags={["GlórAI", "Voice", "Irish"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="GlórAI Screenshot 2"
@@ -90,6 +97,7 @@ export default function EngineersPage() {
             description="GlórAI conversation interface - practice Irish with AI."
             imageUrl="/images/personas/techies/glorai2.png"
             tags={["Conversation", "AI", "Practice"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="GlórAI Screenshot 3"
@@ -97,6 +105,7 @@ export default function EngineersPage() {
             description="GlórAI learning mode - oral prep and daily chat."
             imageUrl="/images/personas/techies/glorai3.png"
             tags={["Learning", "Oral", "Chat"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Tech Stack"
@@ -104,6 +113,7 @@ export default function EngineersPage() {
             description="Built with Next.js, TypeScript, OpenAI APIs, and Web Speech API. Focus on performance and user experience."
             imageUrl="/images/personas/techies/glorai1.png"
             tags={["Next.js", "TypeScript", "OpenAI"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Voice Recognition"
@@ -111,6 +121,7 @@ export default function EngineersPage() {
             description="Integrated OpenAI Whisper for accurate Irish language voice recognition - technical challenge solved."
             imageUrl="/images/personas/techies/glorai2.png"
             tags={["Whisper", "Voice", "Recognition"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -190,6 +201,7 @@ export default function EngineersPage() {
             description="All Bart photos are of a website I built for an English Artist displaying their quality of work from paintings to photography and everything in between."
             imageUrl="/images/personas/techies/bart.png"
             tags={["Artist", "Portfolio", "Paintings"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Bart Gallery"
@@ -197,6 +209,7 @@ export default function EngineersPage() {
             description="Gallery section showcasing the artist's diverse body of work."
             imageUrl="/images/personas/techies/bart2.png"
             tags={["Gallery", "Artwork", "Showcase"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Bart Portfolio"
@@ -204,6 +217,7 @@ export default function EngineersPage() {
             description="Professional portfolio presentation for the artist."
             imageUrl="/images/personas/techies/bart3.png"
             tags={["Professional", "Presentation", "Quality"]}
+            imagePosition={5}
           />
         </NavSection>
 

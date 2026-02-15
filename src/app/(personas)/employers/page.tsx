@@ -156,6 +156,7 @@ export default function EmployersPage() {
             description="GlórAI - Ireland's first Irish-language AI voice companion."
             imageUrl="/images/personas/employers/glorai1.png"
             tags={["GlórAI", "Voice", "Irish"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="GlórAI Screenshot 2"
@@ -163,6 +164,7 @@ export default function EmployersPage() {
             description="GlórAI conversation interface - practice Irish with AI."
             imageUrl="/images/personas/employers/glorai2.png"
             tags={["Conversation", "AI", "Practice"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="GlórAI Screenshot 3"
@@ -170,6 +172,7 @@ export default function EmployersPage() {
             description="GlórAI learning mode - oral prep and daily chat."
             imageUrl="/images/personas/employers/glorai3.png"
             tags={["Learning", "Oral", "Chat"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -242,6 +245,7 @@ export default function EmployersPage() {
             imageUrl="/images/personas/employers/dronan-weddings.png"
             tags={["Weddings", "Portfolio", "98 Score"]}
             href="https://dronanweddings.ie"
+            imagePosition={5}
           />
         </NavSection>
 
@@ -253,6 +257,7 @@ export default function EmployersPage() {
             description="Website for an English Artist displaying their quality of work from paintings to photography and everything in between."
             imageUrl="/images/personas/employers/bart.png"
             tags={["Artist", "Portfolio", "Paintings"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Bart Gallery"
@@ -260,6 +265,7 @@ export default function EmployersPage() {
             description="Gallery section showcasing the artist's diverse body of work."
             imageUrl="/images/personas/employers/bart2.png"
             tags={["Gallery", "Artwork", "Showcase"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Bart Portfolio"
@@ -267,6 +273,7 @@ export default function EmployersPage() {
             description="Professional portfolio presentation for the artist."
             imageUrl="/images/personas/employers/bart3.png"
             tags={["Professional", "Presentation", "Quality"]}
+            imagePosition={5}
           />
         </NavSection>
 
@@ -279,6 +286,7 @@ export default function EmployersPage() {
             imageUrl="/images/personas/employers/thekneecap.png"
             tags={["Kneecap", "Irish", "Translation"]}
             href="https://thekneecapp.ie"
+            imagePosition={5}
           />
           <NetflixCard
             title="Kneecapp Screenshot 2"
@@ -286,6 +294,7 @@ export default function EmployersPage() {
             description="The Kneecapp lyrics view - side by side Irish and English."
             imageUrl="/images/personas/employers/thekneecap2.png"
             tags={["Lyrics", "Bilingual", "Learning"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Kneecapp Screenshot 3"
@@ -293,6 +302,7 @@ export default function EmployersPage() {
             description="The Kneecapp song selection - browse the discography."
             imageUrl="/images/personas/employers/thekneecap3.png"
             tags={["Songs", "Browse", "Music"]}
+            imagePosition={5}
           />
           <NetflixCard
             title="Kneecapp Screenshot 4"
@@ -300,6 +310,7 @@ export default function EmployersPage() {
             description="Is brea liom Kneecapp - I love Kneecap!"
             imageUrl="/images/personas/employers/thekneecap4.png"
             tags={["Love", "Kneecap", "Gaeilge"]}
+            imagePosition={5}
           />
         </NavSection>
 

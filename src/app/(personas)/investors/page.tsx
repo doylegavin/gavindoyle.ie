@@ -22,6 +22,7 @@ export default function InvestorsPage() {
             tags={["EdTech", "AI/ML", "SaaS", "Scalable"]}
             href="mailto:doyle.d.gavin@gmail.com"
             size="hero"
+            imagePosition={7}
           />
         </div>
 
@@ -33,6 +34,7 @@ export default function InvestorsPage() {
             description="Professional executive headshot from Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-03457.jpg"
             tags={["Executive", "Professional", "Synergy"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Synergy Headshot 2"
@@ -40,6 +42,7 @@ export default function InvestorsPage() {
             description="Professional executive headshot from Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-03462.jpg"
             tags={["Executive", "Professional", "Synergy"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Synergy Headshot 3"
@@ -47,6 +50,7 @@ export default function InvestorsPage() {
             description="Professional executive headshot from Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-03467.jpg"
             tags={["Executive", "Professional", "Synergy"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Synergy Headshot 4"
@@ -54,6 +58,7 @@ export default function InvestorsPage() {
             description="Professional executive headshot from Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-3437.jpg"
             tags={["Executive", "Professional", "Synergy"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Synergy Headshot 5"
@@ -61,6 +66,7 @@ export default function InvestorsPage() {
             description="Professional executive headshot from Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-3452.jpg"
             tags={["Executive", "Professional", "Synergy"]}
+            imagePosition={7}
           />
         </NavSection>
 
@@ -72,6 +78,7 @@ export default function InvestorsPage() {
             description="Built and scaled products serving 1000+ active users in EdTech. Achieved consistent month-over-month growth in competitive SaaS markets with strong user retention."
             imageUrl="/images/personas/investors/250828_Synergy-03457.jpg"
             tags={["EdTech", "SaaS", "Growth", "Retention"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Technical Leadership"
@@ -79,6 +86,7 @@ export default function InvestorsPage() {
             description="7+ years technical experience, National AI Challenge finalist, built voicebot technology. Deep understanding of modern tech stack and scalable architecture."
             imageUrl="/images/personas/investors/250828_Synergy-03462.jpg"
             tags={["AI", "Voicebot", "Full-stack", "Architecture"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Market Opportunity"
@@ -86,6 +94,7 @@ export default function InvestorsPage() {
             description="Education technology market ripe for innovation. AI-powered learning tools, personalized education, scalable SaaS models with recurring revenue."
             imageUrl="/images/personas/investors/250828_Synergy-3452.jpg"
             tags={["EdTech", "AI", "SaaS", "Innovation"]}
+            imagePosition={7}
           />
           <NetflixCard
             title="Team & Vision"
@@ -93,6 +102,7 @@ export default function InvestorsPage() {
             description="Teacher-turned-founder with deep domain expertise. Proven ability to build, ship, and scale products. Clear vision for AI-powered education."
             imageUrl="/images/personas/investors/teaching-in-class-examinaite.JPG"
             tags={["Teaching", "Examinaite", "Classroom", "Education"]}
+            imagePosition={8}
           />
         </NavSection>
 
