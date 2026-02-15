@@ -130,10 +130,9 @@ export default function Home() {
 
       {/* Who's Watching Page */}
       <div className={`whos-watching ${!isLoading ? 'active' : ''}`}>
-        <h1 className="seo-hidden">Gavin Doyle - Founder & CEO of Examinaite</h1>
         <h3 className="whos-watching-title">Who&apos;s watching?</h3>
         <div className="profiles-container">
-          <div className="profile" onClick={() => window.location.href = '/employers'}>
+          <a href="/employers" className="profile">
             <div className="profile-avatar">
               <Image
                 src="/images/profiles/employers.png"
@@ -146,8 +145,8 @@ export default function Home() {
               <div className="emoji-fallback">💼</div>
             </div>
             <div className="profile-name">Employers</div>
-          </div>
-          <div className="profile" onClick={() => window.location.href = '/fans'}>
+          </a>
+          <a href="/fans" className="profile">
             <div className="profile-avatar">
               <Image
                 src="/images/profiles/fans.png"
@@ -160,8 +159,8 @@ export default function Home() {
               <div className="emoji-fallback">🎭</div>
             </div>
             <div className="profile-name">Fans</div>
-          </div>
-          <div className="profile" onClick={() => window.location.href = '/suitors'}>
+          </a>
+          <a href="/suitors" className="profile">
             <div className="profile-avatar">
               <Image
                 src="/images/profiles/suitors.png"
@@ -174,8 +173,8 @@ export default function Home() {
               <div className="emoji-fallback">💕</div>
             </div>
             <div className="profile-name">Suitors</div>
-          </div>
-          <div className="profile" onClick={() => window.location.href = '/curious'}>
+          </a>
+          <a href="/curious" className="profile">
             <div className="profile-avatar">
               <Image
                 src="/images/profiles/curious.png"
@@ -188,8 +187,8 @@ export default function Home() {
               <div className="emoji-fallback">🕵️</div>
             </div>
             <div className="profile-name">Stalkers</div>
-          </div>
-          <div className="profile" onClick={() => window.location.href = '/techies'}>
+          </a>
+          <a href="/techies" className="profile">
             <div className="profile-avatar">
               <Image
                 src="/images/profiles/engineers.png"
@@ -200,9 +199,9 @@ export default function Home() {
                 style={{ objectFit: 'cover', borderRadius: '8px' }}
               />
               <div className="emoji-fallback">⚡</div>
-          </div>
+            </div>
             <div className="profile-name">Techies</div>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -295,15 +294,6 @@ export default function Home() {
     <Footer />
 
     <style jsx>{`
-      .seo-hidden {
-        position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-      }
-
       .whos-watching-title {
         font-size: 3.5rem;
         margin-bottom: 50px;

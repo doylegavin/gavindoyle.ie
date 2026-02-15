@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ['https://gavindoyle.ie/images/personas/employers/headshot-full-smile.jpg'],
   },
   alternates: {
-    canonical: 'https://gavindoyle.ie',
+    canonical: 'https://gavindoyle.ie/',
   },
 };
 

@@ -6,9 +6,9 @@ export const gavinDoylePersonSchema = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://gavindoyle.ie/#person",
+      "@id": "https://gavindoyle.ie/#gavin-doyle",
       "name": "Gavin Doyle",
-      "alternateName": ["Gav", "Mr Doyle", "Gavinthecraic"],
+      "alternateName": ["Gav", "Gavinthecraic"],
       "description": "Irish educator-turned-founder and software developer. After 7 years teaching PE and Mathematics, founded Examinaite, an AI-powered Leaving Certificate revision platform serving 2,000+ students.",
       "url": "https://gavindoyle.ie/",
       "image": {
@@ -24,6 +24,13 @@ export const gavinDoylePersonSchema = {
         "@id": "https://gavindoyle.ie/#examinaite"
       },
       "nationality": "Irish",
+      "homeLocation": "Dublin, Ireland",
+      "knowsLanguage": ["en-IE", "ga-IE"],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Wikidata",
+        "value": "Q138010338"
+      },
       "alumniOf": [
         {
           "@type": "EducationalOrganization",
@@ -37,25 +44,17 @@ export const gavinDoylePersonSchema = {
       "knowsAbout": [
         "EdTech",
         "Education Technology",
-        "Artificial Intelligence",
         "AI in Education",
         "Leaving Certificate",
         "Irish Education System",
-        "Exam Preparation",
-        "Assessment Design",
-        "Adaptive Learning",
         "Irish Language Technology",
         "Irish Language (Gaeilge)",
         "Full-Stack Development",
         "Next.js",
         "React",
         "TypeScript",
-        "Python",
         "Teaching",
-        "Mathematics Education",
-        "Physical Education",
-        "Strength & Conditioning",
-        "Basketball"
+        "Mathematics Education"
       ],
       "sameAs": [
         "https://www.wikidata.org/wiki/Q138010338",
@@ -68,13 +67,23 @@ export const gavinDoylePersonSchema = {
       "subjectOf": [
         {
           "@type": "Article",
-          "name": "Teacher quit job to build personalised AI revision platform for Leaving Cert",
-          "url": "https://www.irishtimes.com/business/innovation/2024/12/04/teacher-quit-job-to-build-personalised-ai-revision-platform-for-leaving-cert/"
+          "headline": "Teacher quit job to build personalised AI revision platform for Leaving Cert",
+          "url": "https://www.irishtimes.com/business/innovation/2025/12/04/teacher-quit-job-to-build-personalised-ai-revision-platform-for-leaving-cert/",
+          "datePublished": "2024-12-04",
+          "publisher": {
+            "@type": "Organization",
+            "name": "The Irish Times"
+          }
         },
         {
           "@type": "Article",
-          "name": "Meet the teacher tech duo using AI as an alternative to grinds for Leaving Cert students",
-          "url": "https://m.independent.ie/irish-news/education/meet-the-teacher-tech-duo-using-ai-as-an-alternative-to-grinds-for-leaving-cert-students/a377696583.html"
+          "headline": "Meet the teacher tech duo using AI as an alternative to grinds for Leaving Cert students",
+          "url": "https://www.independent.ie/irish-news/education/meet-the-teacher-tech-duo-using-ai-as-an-alternative-to-grinds-for-leaving-cert-students/a377696583.html",
+          "datePublished": "2026-01-27",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Irish Independent"
+          }
         }
       ]
     },
@@ -86,7 +95,7 @@ export const gavinDoylePersonSchema = {
       "legalName": "Examinaite Limited",
       "url": "https://examinaite.ie/",
       "founder": {
-        "@id": "https://gavindoyle.ie/#person"
+        "@id": "https://gavindoyle.ie/#gavin-doyle"
       },
       "foundingDate": "2024-08-08",
       "sameAs": [
@@ -102,7 +111,7 @@ export const gavinDoylePersonSchema = {
       "name": "Gavin Doyle",
       "url": "https://gavindoyle.ie/",
       "publisher": {
-        "@id": "https://gavindoyle.ie/#person"
+        "@id": "https://gavindoyle.ie/#gavin-doyle"
       },
       "inLanguage": "en-IE"
     },
@@ -116,7 +125,7 @@ export const gavinDoylePersonSchema = {
         "@id": "https://gavindoyle.ie/#website"
       },
       "mainEntity": {
-        "@id": "https://gavindoyle.ie/#person"
+        "@id": "https://gavindoyle.ie/#gavin-doyle"
       },
       "primaryImageOfPage": {
         "@id": "https://gavindoyle.ie/#image"
@@ -139,7 +148,7 @@ export const examinaiteOrganizationSchema = {
 
   "founder": {
     "@type": "Person",
-    "@id": "https://gavindoyle.ie/#person",
+    "@id": "https://gavindoyle.ie/#gavin-doyle",
     "name": "Gavin Doyle",
     "url": "https://gavindoyle.ie/"
   },

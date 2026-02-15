@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://gavindoyle.ie/about/press',
+    canonical: 'https://gavindoyle.ie/about/press/',
   },
 };
 
