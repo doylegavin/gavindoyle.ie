@@ -1,6 +1,6 @@
 'use client';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
+import NetflixNavbar from '@/components/NetflixNavbar';
 
 export default function CuriousClientLayout({
   children,
@@ -9,20 +9,15 @@ export default function CuriousClientLayout({
 }) {
   return (
     <>
-      <button className="back-btn" onClick={() => window.location.href = '/'}>
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/curious">Investigate</Link></li>
-            <li><Link href="/about">Timeline</Link></li>
-            <li><Link href="/projects">Secrets</Link></li>
-            <li><Link href="/contact">FAQ</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <NetflixNavbar
+        personaSlug="curious"
+        links={[
+          { label: 'Investigate', href: '/curious' },
+          { label: 'Timeline', href: '/about' },
+          { label: 'Secrets', href: '/projects' },
+          { label: 'FAQ', href: '/contact' },
+        ]}
+      />
       {children}
       <Footer />
     </>

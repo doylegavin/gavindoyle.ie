@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Footer from '@/components/Footer';
 
 export default function PressPage() {
   return (
@@ -143,7 +142,6 @@ export default function PressPage() {
         </div>
       </article>
 
-      <Footer />
 
       <style jsx>{`
         .press-page {

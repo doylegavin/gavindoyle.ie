@@ -1,8 +1,8 @@
 # 📸 PHOTO CONTEXT MASTER - Complete Photo Inventory & Context
 
-**Last Updated:** February 2, 2026
-**Total Photos:** 280+ photos across all directories
-**Newly Added (Needs Context):** 50 photos
+**Last Updated:** August 8, 2026
+**Total Photos:** 300+ photos across all directories
+**Newly Added (Needs Context):** 10 videos (August 8) + 10 photos (August 8) + 7 photos (August 7) + 50 photos (February 2)
 
 This is the single source of truth for ALL photo contexts across the entire website.
 
@@ -395,6 +395,64 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `basketball-to-code.jpg` - **MISSING** - Cover for "How semi-pro basketball prepared me for startup life" {pos:5}
 - `coffee-culture-and-creativity.jpg` - **MISSING** - Cover for "Why I only drink coffee from 3fe" {pos:5}
 - `teaching-in-the-ai-age.jpg` - **MISSING** - Cover for "Unpopular opinion: AI is already better than some teachers" {pos:5}
+
+---
+
+## 🎬 NEWLY ADDED VIDEOS - AUGUST 8, 2026 - RECORDING BOOTH CLIPS (10 videos)
+
+**Source:** `drive-download-20260808...` folder from Downloads (iPhone clips shot Aug 7, 2026, 10:39-10:40). All copied to `public/videos/`.
+
+**⚠️ Technical note:** These are 4K HEVC .MOV files (~212MB total). HEVC only plays in Safari — before wiring them into the site they need converting to web-friendly H.264 MP4 (which will also shrink them a lot).
+
+**What's in them:** All 10 are the same setup — Gavin talking to camera in a dark acoustic-panelled recording booth, cream PostHog t-shirt, wireless lav mic in hand. Short takes.
+
+- `IMG_6017.MOV` (4s) - Talking to camera, mic raised - **NEEDS CONTEXT** {pos:5}
+- `IMG_6018.MOV` (2s) - Very short take, mid-sentence - **NEEDS CONTEXT** {pos:5}
+- `IMG_6022.MOV` (5s) - Neutral face, mic out of frame at start - **NEEDS CONTEXT** {pos:5}
+- `IMG_6024.MOV` (7s) - Animated delivery, smiling - **NEEDS CONTEXT** {pos:5}
+- `IMG_6026.MOV` (5s) - Straight face to camera - **NEEDS CONTEXT** {pos:5}
+- `IMG_6027.MOV` (7s) - Mid-sentence, mic raised - **NEEDS CONTEXT** {pos:5}
+- `IMG_6028.MOV` (3s) - Short take, looking down at start - **NEEDS CONTEXT** {pos:5}
+- `IMG_6029.MOV` (8s) - Longest take, talking energetically - **NEEDS CONTEXT** {pos:5}
+- `IMG_6030.MOV` (5s) - Talking with mic low - **NEEDS CONTEXT** {pos:5}
+- `IMG_6033.MOV` (7s) - Pointing at camera mid-take - **NEEDS CONTEXT** {pos:5}
+
+---
+
+## 🆕 NEWLY ADDED PHOTOS - AUGUST 8, 2026 - NATIONAL EDUCATION SHOW (10 photos)
+
+**Source:** `drive-download-20260327...` folder from Downloads (professional photos from March 2026). All copied to `public/images/`. The two JEFF files were renamed to drop the " (1)" suffix so URLs stay clean.
+
+**Professional speaking shots — Gavin presenting Examinaite on stage at the National Education Show ("Empowering Education in Ireland"). Fill in YOUR context/caption for each:**
+
+- `400A6897.jpg` - Mid-talk at the podium, gesturing to the crowd - **NEEDS CONTEXT** {pos:6}
+- `400A6901.jpg` - Wide shot of the room, full audience, both screens visible - **NEEDS CONTEXT** {pos:5}
+- `400A6904.jpg` - At the podium beside the National Education Show banner - **NEEDS CONTEXT** {pos:6}
+- `400A6908.jpg` - Full-length at the podium, Examinaite slide on screen - **NEEDS CONTEXT** {pos:6}
+- `400A6919.jpg` - Animated mid-gesture in front of the show banner - **NEEDS CONTEXT** {pos:6}
+- `400A6920.jpg` - Smiling at the podium, clicker in hand - **NEEDS CONTEXT** {pos:6}
+- `400A6936.jpg` - Laughing with the audience in the foreground - **NEEDS CONTEXT** {pos:6}
+- `400A6955.jpg` - Presenting over the heads of the crowd, "Empowering Education in Ireland" backdrop - **NEEDS CONTEXT** {pos:6}
+- `JEFF2872.jpg` - Speaking to a packed room from the back of the audience - **NEEDS CONTEXT** {pos:5}
+- `JEFF2874.jpg` - Second wide crowd shot of the talk - **NEEDS CONTEXT** {pos:5}
+
+**Note:** Not imported: `drive-download-20260225...` (Oisin mascot PNGs — Examinaite product assets, not personal-site photos) and `drive-download-20250810...` (Barcelona/Lisbon/Paris/Rome/Santorini .mp4 travel videos — say the word if you want these added as video cards).
+
+---
+
+## 🆕 NEWLY ADDED PHOTOS - AUGUST 7, 2026 - NEEDS CONTEXT (7 photos)
+
+**Source:** "Website Photos" folder from Downloads. All copied to `public/images/`. ProfilePic.HEIC was converted to `ProfilePic.jpg` so browsers can display it.
+
+**What's visible in each photo (fill in YOUR context/caption for each):**
+
+- `BasketballBlock.jpg` - Contesting a shot at the rim (yellow kit vs orange team, © Michelle La Grue 2022) - **NEEDS CONTEXT** {pos:8}
+- `BasketballHeadShot.JPG` - Posed studio shot in Ulster University Randox kit holding a ball - **NEEDS CONTEXT** {pos:8}
+- `BasketballPass.jpg` - Mid-air pass in blue #8 kit during a match - **NEEDS CONTEXT** {pos:7}
+- `Dunk.jpg` - Flying one-handed finish at the rim in blue #8, crowd watching - **NEEDS CONTEXT** {pos:9}
+- `GameDayWeightliftingClean.JPG` - Catching a heavy clean in the bottom of a squat, Eleiko plates - **NEEDS CONTEXT** {pos:5}
+- `IrelandRugbyOlympics.JPG` - Draped in the tricolour at Stade de France, Olympics rugby (similar to `supporting-ireland-at-olympics.JPG`) - **NEEDS CONTEXT** {pos:6}
+- `ProfilePic.jpg` - Casual pic reaching toward the camera in a white tee - **NEEDS CONTEXT** {pos:7}
 
 ---
 

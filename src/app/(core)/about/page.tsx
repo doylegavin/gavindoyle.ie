@@ -1,38 +1,35 @@
 'use client';
 
-import Image from 'next/image';
+import Billboard from '@/components/Billboard';
 import { gavinDoylePersonSchema } from '@/schemas/personSchema';
-import Footer from '@/components/Footer';
 
 export default function AboutPage() {
   return (
-    <>
+    <div className="netflix-page">
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(gavinDoylePersonSchema) }}
       />
 
+      <Billboard
+        title="Gavin Doyle"
+        tagline="Founder & CEO of Examinaite | Educator-Turned-Technologist"
+        description="Irish educator-turned-founder based in Dublin. 7 years teaching PE and Mathematics, then taught himself to code and built an AI revision platform serving 2,000+ students."
+        imageUrl="/images/400A6936.jpg"
+        imagePosition={6}
+        seriesLabel="Documentary"
+        badge="The Full Story"
+        ratingFlag="Based on True Events"
+        match="100% Match"
+        year="Dublin"
+        parts="27 Seasons"
+        primaryCta={{ text: 'Get In Touch', href: '/contact' }}
+        secondaryCta={{ text: 'Press & Media', href: '/about/press' }}
+      />
+
       <article className="about-page">
         <div className="about-container">
-          {/* Header */}
-          <header className="about-header">
-            <div className="header-content">
-              <h1>Gavin Doyle</h1>
-              <p className="tagline">Founder & CEO of Examinaite | Educator-Turned-Technologist</p>
-            </div>
-            <div className="header-image">
-              <Image
-                src="/images/personas/employers/headshot-full-smile.jpg"
-                alt="Gavin Doyle"
-                width={300}
-                height={300}
-                priority
-                style={{ borderRadius: '8px' }}
-              />
-            </div>
-          </header>
-
           {/* Bio */}
           <section className="bio-section">
             <h2>About</h2>
@@ -67,7 +64,7 @@ export default function AboutPage() {
 
           {/* Recognition */}
           <section className="recognition-section">
-            <h2>Recognition & Achievements</h2>
+            <h2>Recognition &amp; Achievements</h2>
             <ul>
               <li><strong>Enterprise Ireland New Frontiers Phase 2</strong> - Selected for Ireland&apos;s premier startup acceleration program</li>
               <li><strong>The Pitch UK Finalist</strong> - Top 8 from over 1,000 applications, pitched at Amazon HQ London</li>
@@ -112,49 +109,15 @@ export default function AboutPage() {
         </div>
       </article>
 
-      <Footer />
-
       <style jsx>{`
         .about-page {
-          min-height: 100vh;
-          background: #0a0a0a;
           color: #e5e5e5;
-          padding: 4rem 2rem;
+          padding: 1rem 2rem 4rem;
         }
 
         .about-container {
           max-width: 900px;
           margin: 0 auto;
-        }
-
-        .about-header {
-          display: flex;
-          align-items: center;
-          gap: 3rem;
-          margin-bottom: 4rem;
-          padding-bottom: 3rem;
-          border-bottom: 1px solid #333;
-        }
-
-        .header-content {
-          flex: 1;
-        }
-
-        .about-header h1 {
-          font-size: 3.5rem;
-          font-weight: bold;
-          color: white;
-          margin-bottom: 0.5rem;
-        }
-
-        .tagline {
-          font-size: 1.3rem;
-          color: #e50914;
-          font-weight: 500;
-        }
-
-        .header-image {
-          flex-shrink: 0;
         }
 
         .bio-section,
@@ -166,10 +129,15 @@ export default function AboutPage() {
         }
 
         h2 {
+          font-family: var(--font-display), Impact, sans-serif;
           font-size: 2rem;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
           color: white;
           margin-bottom: 1.5rem;
-          font-weight: 600;
+          font-weight: 400;
+          border-left: 4px solid #e50914;
+          padding-left: 14px;
         }
 
         p {
@@ -189,8 +157,7 @@ export default function AboutPage() {
           text-decoration: underline;
         }
 
-        .recognition-section ul,
-        .skills-section ul {
+        .recognition-section ul {
           list-style: none;
           padding: 0;
           margin: 0;
@@ -221,30 +188,34 @@ export default function AboutPage() {
           gap: 1.5rem;
         }
 
-        .press-card {
+        .press-card,
+        .link-card {
           display: flex;
           flex-direction: column;
           gap: 0.5rem;
           padding: 1.5rem;
-          background: #1a1a1a;
-          border-radius: 8px;
-          border: 1px solid #333;
+          background: #181818;
+          border-radius: 6px;
+          border: 1px solid #272727;
           transition: all 0.2s;
           text-decoration: none !important;
         }
 
-        .press-card:hover {
+        .press-card:hover,
+        .link-card:hover {
           border-color: #e50914;
-          transform: translateY(-2px);
+          transform: scale(1.03);
           opacity: 1 !important;
         }
 
-        .press-card strong {
+        .press-card strong,
+        .link-card strong {
           color: white;
           font-size: 1.1rem;
         }
 
-        .press-card span {
+        .press-card span,
+        .link-card span {
           color: #b3b3b3;
           font-size: 0.95rem;
           line-height: 1.4;
@@ -257,34 +228,6 @@ export default function AboutPage() {
           margin-bottom: 1.5rem;
         }
 
-        .link-card {
-          display: flex;
-          flex-direction: column;
-          gap: 0.5rem;
-          padding: 1.5rem;
-          background: #1a1a1a;
-          border-radius: 8px;
-          border: 1px solid #333;
-          transition: all 0.2s;
-          text-decoration: none !important;
-        }
-
-        .link-card:hover {
-          border-color: #e50914;
-          transform: translateY(-2px);
-          opacity: 1 !important;
-        }
-
-        .link-card strong {
-          color: white;
-          font-size: 1.1rem;
-        }
-
-        .link-card span {
-          color: #b3b3b3;
-          font-size: 0.9rem;
-        }
-
         .external-note {
           text-align: center;
           color: #808080;
@@ -294,21 +237,7 @@ export default function AboutPage() {
 
         @media (max-width: 768px) {
           .about-page {
-            padding: 2rem 1.5rem;
-          }
-
-          .about-header {
-            flex-direction: column;
-            text-align: center;
-            gap: 2rem;
-          }
-
-          .about-header h1 {
-            font-size: 2.5rem;
-          }
-
-          .tagline {
-            font-size: 1.1rem;
+            padding: 1rem 1.25rem 3rem;
           }
 
           .link-grid {
@@ -316,6 +245,6 @@ export default function AboutPage() {
           }
         }
       `}</style>
-    </>
+    </div>
   );
 }

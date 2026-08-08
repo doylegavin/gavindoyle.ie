@@ -1,6 +1,6 @@
 'use client';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
+import NetflixNavbar from '@/components/NetflixNavbar';
 
 export default function TechiesClientLayout({
   children,
@@ -9,20 +9,15 @@ export default function TechiesClientLayout({
 }) {
   return (
     <>
-      <button className="back-btn" onClick={() => window.location.href = '/'}>
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/techies">Overview</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="/about">Tech Stack</Link></li>
-            <li><Link href="/contact">Connect</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <NetflixNavbar
+        personaSlug="techies"
+        links={[
+          { label: 'Overview', href: '/techies' },
+          { label: 'Projects', href: '/projects' },
+          { label: 'Tech Stack', href: '/about' },
+          { label: 'Connect', href: '/contact' },
+        ]}
+      />
       {children}
       <Footer />
     </>

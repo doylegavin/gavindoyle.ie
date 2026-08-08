@@ -1,8 +1,9 @@
 'use client';
+
 import Footer from '@/components/Footer';
 import NetflixNavbar from '@/components/NetflixNavbar';
 
-export default function FansClientLayout({
+export default function CoreLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -10,9 +11,9 @@ export default function FansClientLayout({
   return (
     <>
       <NetflixNavbar
-        personaSlug="fans"
+        personaSlug="gavin"
         links={[
-          { label: 'Home', href: '/fans' },
+          { label: 'Home', href: '/' },
           { label: 'Blog', href: '/blog' },
           { label: 'Gallery', href: '/projects' },
           { label: 'About', href: '/about' },

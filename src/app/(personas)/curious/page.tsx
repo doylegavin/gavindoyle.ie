@@ -2,6 +2,7 @@
 
 import React from 'react';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
 
@@ -10,20 +11,21 @@ export default function CuriousPage() {
     <NavigationProvider>
       <div className="netflix-page">
         {/* Hero Section */}
-        <div className="netflix-hero">
-          <NetflixCard
-            title="The Deep Dive"
-            subtitle="Everything you wanted to know"
-            description="Welcome to the rabbit hole! This is where you'll find the real Gavin Doyle - the good, the bad, and the beautifully messy. From childhood memories to current obsessions, from embarrassing moments to proud achievements."
-            imageUrl="/images/personas/curious/basketball-headshot.JPG"
-            badge="Rabbit Hole"
-            rating="Deep"
-            tags={["Everything", "Real Gavin", "Rabbit Hole"]}
-            href="/about"
-            size="hero"
-            imagePosition={8}
-          />
-        </div>
+        <Billboard
+          title="The Deep Dive"
+          tagline="Everything you wanted to know"
+          description="Welcome to the rabbit hole! This is where you'll find the real Gavin Doyle - the good, the bad, and the beautifully messy. From childhood memories to current obsessions, from embarrassing moments to proud achievements."
+          imageUrl="/images/ProfilePic.jpg"
+          imagePosition={7}
+          match="100% Match"
+          year="2026"
+          parts="26 Seasons"
+          badge="Trending Now"
+          ratingFlag="Unfiltered"
+          meta={["Everything", "Real Gavin", "Rabbit Hole"]}
+          primaryCta={{ text: 'Play', href: '/about' }}
+          secondaryCta={{ text: 'More Info', href: '/projects' }}
+        />
 
         {/* Basketball Photoshoot */}
         <NavSection title="Basketball Photoshoot Day">

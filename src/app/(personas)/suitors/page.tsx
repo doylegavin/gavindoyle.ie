@@ -2,6 +2,7 @@
 
 import React from 'react';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
 
@@ -10,21 +11,21 @@ export default function SuitorsPage() {
     <NavigationProvider>
       <div className="netflix-page">
         {/* Hero Section */}
-        <div className="netflix-hero">
-          <NetflixCard
-            title="The Complete Package"
-            subtitle="6'2&quot;, athletic, creative, ambitious"
-            description="Teacher-turned-founder building the future of education. Love basketball, photography, coffee culture, and deep conversations. Based in Dublin, ready for adventures."
-            imageUrl="/images/personas/suitors/basketball-photoshoot-main.JPG"
-            badge="Available"
-            rating="Complete Package"
-            duration="26 years old"
-            tags={["Athletic", "Creative", "Ambitious", "Dublin"]}
-            href="/contact"
-            size="hero"
-            imagePosition={10}
-          />
-        </div>
+        <Billboard
+          title="The Complete Package"
+          tagline="6'2&quot;, athletic, creative, ambitious"
+          description="Teacher-turned-founder building the future of education. Love basketball, photography, coffee culture, and deep conversations. Based in Dublin, ready for adventures."
+          imageUrl="/images/personas/suitors/basketball-photoshoot-main.JPG"
+          imagePosition={10}
+          match="99% Match"
+          year="2026"
+          parts="1 Season (so far)"
+          badge="New Season, Still Single"
+          ratingFlag="Available"
+          meta={["Athletic", "Creative", "Ambitious", "Dublin"]}
+          primaryCta={{ text: 'Shoot Your Shot', href: '/contact' }}
+          secondaryCta={{ text: 'More Info', href: '/about' }}
+        />
 
         {/* Athletic Photos */}
         <NavSection title="Athletic Side">

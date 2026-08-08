@@ -2,6 +2,7 @@
 
 import React from 'react';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
 
@@ -10,21 +11,21 @@ export default function InvestorsPage() {
     <NavigationProvider>
       <div className="netflix-page">
         {/* Hero Section */}
-        <div className="netflix-hero">
-          <NetflixCard
-            title="Investment Opportunity"
-            subtitle="Serial entrepreneur & technical founder"
-            description="Track record of building scalable products, leading high-performing teams, and delivering measurable ROI in competitive markets. Ready for next-level growth."
-            imageUrl="/images/personas/investors/250828_Synergy-03467.jpg"
-            badge="Seeking Investment"
-            rating="Series A"
-            duration="$2M Round"
-            tags={["EdTech", "AI/ML", "SaaS", "Scalable"]}
-            href="mailto:doyle.d.gavin@gmail.com"
-            size="hero"
-            imagePosition={7}
-          />
-        </div>
+        <Billboard
+          title="Investment Opportunity"
+          tagline="Serial entrepreneur & technical founder"
+          description="Track record of building scalable products, leading high-performing teams, and delivering measurable ROI in competitive markets. Ready for next-level growth."
+          imageUrl="/images/Pitching_at_AmazonHQ_ThePitchUK.JPG"
+          imagePosition={6}
+          match="97% Match"
+          year="2026"
+          parts="Series A"
+          badge="Limited Series"
+          ratingFlag="Series A"
+          meta={["EdTech", "AI/ML", "SaaS", "$2M Round"]}
+          primaryCta={{ text: 'Pitch Me', href: 'mailto:doyle.d.gavin@gmail.com' }}
+          secondaryCta={{ text: 'More Info', href: '/about' }}
+        />
 
         {/* Professional Headshots */}
         <NavSection title="Professional Executive Headshots">

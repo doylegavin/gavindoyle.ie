@@ -24,17 +24,24 @@ interface NetflixCardProps {
   imagePosition?: number;
 }
 
-const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({ 
-  title, 
-  subtitle, 
-  description, 
-  imageUrl, 
-  // badge - extracted but unused, kept in interface for API compatibility
-  rating, 
-  duration, 
-  tags = [], 
+/** Deterministic 91-99% match from the title, so SSR and client agree. */
+function matchFromTitle(title: string): number {
+  let hash = 0;
+  for (let i = 0; i < title.length; i++) {
+    hash = (hash * 31 + title.charCodeAt(i)) >>> 0;
+  }
+  return 91 + (hash % 9);
+}
+
+const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
+  title,
+  subtitle,
+  description,
+  imageUrl,
+  rating,
+  duration,
+  tags = [],
   href,
-  size = 'medium',
   isFocused = false,
   isActive = false,
   onFocus,
@@ -44,36 +51,19 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
   imagePosition = 5
 }, ref) => {
   // Convert position (1-10) to CSS percentage (100%-0%)
-  // 10 = top (0%), 5 = middle (~55%), 1 = bottom (100%)
   const clampedPosition = Math.max(1, Math.min(10, imagePosition));
   const positionPercent = ((10 - clampedPosition) / 9) * 100;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const internalRef = useRef<HTMLDivElement>(null);
   const cardRef = (ref as React.RefObject<HTMLDivElement>) || internalRef;
 
-  const sizeClasses = {
-    small: 'netflix-card-small',
-    medium: 'netflix-card-medium', 
-    large: 'netflix-card-large',
-    hero: 'netflix-card-hero'
-  };
-
-  // Card visual state is determined by isActive prop from NavSection
-  // The NavSection handles the logic of keyboard vs mouse priority
+  const match = matchFromTitle(title);
   const isHighlighted = isActive || isFocused;
 
-  const handleMoreInfo = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setIsModalOpen(true);
-  };
-
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    // Pass arrow key events to parent for navigation
     if (onKeyDown) {
       onKeyDown(e);
     }
-    
-    // Open modal on Enter, Space, or I
     if (e.key === 'Enter' || e.key === ' ' || e.key === 'i' || e.key === 'I') {
       e.preventDefault();
       setIsModalOpen(true);
@@ -87,7 +77,6 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
   };
 
   const handleMouseEnter = () => {
-    // Just notify parent - it will decide if this should activate the card
     if (onMouseEnter) {
       onMouseEnter();
     }
@@ -97,7 +86,6 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
     setIsModalOpen(false);
   };
 
-  // Focus this card when isActive changes
   useEffect(() => {
     if (isActive && cardRef.current) {
       cardRef.current.focus();
@@ -126,18 +114,19 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
 
   return (
     <>
-      <div 
+      <div
         ref={cardRef}
-        className={`netflix-card ${sizeClasses[size]} ${isHighlighted ? 'highlighted' : ''} ${isActive ? 'active' : ''}`}
+        className={`netflix-card ${isHighlighted ? 'highlighted' : ''} ${isActive ? 'active' : ''}`}
         onKeyDown={handleKeyDown}
         onFocus={handleFocus}
         onMouseEnter={handleMouseEnter}
+        onClick={() => setIsModalOpen(true)}
         tabIndex={0}
         role="button"
-        aria-label={`${title}${subtitle ? ` - ${subtitle}` : ''}`}
+        aria-label={`${title}${subtitle ? ` - ${subtitle}` : ''}. Press Enter for details`}
         data-card-index={cardIndex}
       >
-        {/* Image container */}
+        {/* Artwork */}
         <div className="netflix-card-image">
           <Image
             src={imageUrl}
@@ -146,97 +135,117 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             style={{ objectFit: 'cover', objectPosition: `center ${positionPercent}%` }}
           />
-          {/* Tags overlay - only shows on hover/focus/active */}
+          <span className="netflix-card-logo" aria-hidden="true">G</span>
+          <div className="netflix-card-scrim" aria-hidden="true" />
+          <span className="netflix-card-name">{title}</span>
+        </div>
+
+        {/* Slide-up info panel (hover / keyboard focus) */}
+        <div className="netflix-card-panel" aria-hidden="true">
+          <div className="netflix-card-actions">
+            {href ? (
+              <a
+                href={href}
+                className="card-btn card-btn-play"
+                onClick={(e) => e.stopPropagation()}
+                target={/^(https?:|mailto:)/.test(href) ? '_blank' : undefined}
+                rel={/^(https?:|mailto:)/.test(href) ? 'noopener noreferrer' : undefined}
+                aria-label={`Open ${title}`}
+              >
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6 4l15 8-15 8z" /></svg>
+              </a>
+            ) : (
+              <button
+                className="card-btn card-btn-play"
+                onClick={(e) => { e.stopPropagation(); setIsModalOpen(true); }}
+                tabIndex={-1}
+                aria-label={`View ${title}`}
+              >
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6 4l15 8-15 8z" /></svg>
+              </button>
+            )}
+            <button
+              className="card-btn card-btn-more"
+              onClick={(e) => { e.stopPropagation(); setIsModalOpen(true); }}
+              tabIndex={-1}
+              aria-label={`More info about ${title}`}
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            </button>
+          </div>
+          <div className="netflix-card-panel-meta">
+            <span className="netflix-card-match">{match}% Match</span>
+            {subtitle && <span className="netflix-card-panel-subtitle">{subtitle}</span>}
+          </div>
           {tags.length > 0 && (
-            <div className="netflix-overlay">
-              <div className="netflix-tags">
-                {tags.map((tag, index) => (
-                  <span key={index} className="netflix-tag">{tag}</span>
-                ))}
-              </div>
+            <div className="netflix-card-panel-tags">
+              {tags.slice(0, 3).map((tag, index) => (
+                <span key={index}>{tag}</span>
+              ))}
             </div>
           )}
         </div>
-        
-        {/* Action bar below image */}
-        <div className="netflix-card-bar">
-          <button 
-            className="netflix-btn netflix-btn-info"
-            onClick={handleMoreInfo}
-          >
-            <span>ⓘ</span> More Info
-          </button>
-        </div>
       </div>
 
-      {/* Modal - shows full details */}
+      {/* Jumbo modal */}
       {isModalOpen && (
         <div className="netflix-modal-overlay" onClick={closeModal}>
           <div className="netflix-modal" onClick={(e) => e.stopPropagation()}>
-            <button 
-              className="netflix-modal-close" 
+            <button
+              className="netflix-modal-close"
               onClick={closeModal}
               aria-label="Close modal"
             >
-              ×
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" /></svg>
             </button>
-            <div className="netflix-modal-content">
-              <div className="netflix-modal-image">
-                <Image
-                  src={imageUrl}
-                  alt={title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 80vw"
-                  style={{ objectFit: 'contain' }}
-                />
-              </div>
-              <div className="netflix-modal-info">
+
+            <div className="netflix-modal-hero">
+              <Image
+                src={imageUrl}
+                alt={title}
+                fill
+                sizes="(max-width: 768px) 100vw, 850px"
+                style={{ objectFit: 'cover', objectPosition: `center ${positionPercent}%` }}
+                priority
+              />
+              <div className="netflix-modal-hero-fade" aria-hidden="true" />
+              <div className="netflix-modal-hero-content">
                 <h1 className="netflix-modal-title">{title}</h1>
-                {subtitle && <h2 className="netflix-modal-subtitle">{subtitle}</h2>}
-                <p className="netflix-modal-description">{description}</p>
-                
-                {(rating || duration) && (
-                  <div className="netflix-modal-meta">
-                    {rating && <span className="netflix-modal-rating">{rating}</span>}
-                    {duration && <span className="netflix-modal-duration">{duration}</span>}
-                  </div>
-                )}
-                
-                {tags.length > 0 && (
-                  <div className="netflix-modal-tags">
-                    {tags.map((tag, index) => (
-                      <span key={index} className="netflix-modal-tag">{tag}</span>
-                    ))}
-                  </div>
-                )}
-                
-                {href && (
-                  <div className="netflix-modal-actions">
-                    <a 
+                <div className="netflix-modal-actions">
+                  {href && (
+                    <a
                       href={href}
-                      className="netflix-modal-btn netflix-modal-btn-primary"
+                      className="bb-btn bb-btn-play netflix-modal-play"
+                      target={/^(https?:|mailto:)/.test(href) ? '_blank' : undefined}
+                      rel={/^(https?:|mailto:)/.test(href) ? 'noopener noreferrer' : undefined}
                     >
+                      <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M6 4l15 8-15 8z" /></svg>
                       View More
                     </a>
-                    <button 
-                      className="netflix-modal-btn netflix-modal-btn-close"
-                      onClick={closeModal}
-                    >
-                      Close
-                    </button>
-                  </div>
-                )}
-                {!href && (
-                  <div className="netflix-modal-actions">
-                    <button 
-                      className="netflix-modal-btn netflix-modal-btn-close"
-                      onClick={closeModal}
-                    >
-                      Close
-                    </button>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
+            </div>
+
+            <div className="netflix-modal-body">
+              <div className="netflix-modal-main">
+                <div className="netflix-modal-matchline">
+                  <span className="netflix-modal-match">{match}% Match</span>
+                  {rating && <span>{rating}</span>}
+                  {duration && <span>{duration}</span>}
+                  <span className="netflix-modal-hd">HD</span>
+                </div>
+                {subtitle && <p className="netflix-modal-subtitle">{subtitle}</p>}
+                <p className="netflix-modal-description">{description}</p>
+              </div>
+              {tags.length > 0 && (
+                <div className="netflix-modal-side">
+                  <p>
+                    <span className="netflix-modal-label">Vibes: </span>
+                    {tags.join(', ')}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -247,4 +256,4 @@ const NetflixCard = forwardRef<HTMLDivElement, NetflixCardProps>(({
 
 NetflixCard.displayName = 'NetflixCard';
 
-export default NetflixCard; 
+export default NetflixCard;

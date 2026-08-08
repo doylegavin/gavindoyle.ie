@@ -1,6 +1,6 @@
 'use client';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
+import NetflixNavbar from '@/components/NetflixNavbar';
 
 export default function SuitorsClientLayout({
   children,
@@ -9,20 +9,15 @@ export default function SuitorsClientLayout({
 }) {
   return (
     <>
-      <button className="back-btn" onClick={() => window.location.href = '/'}>
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/suitors">About Me</Link></li>
-            <li><Link href="/about">Personal</Link></li>
-            <li><Link href="/projects">Adventures</Link></li>
-            <li><Link href="/contact">Connect</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <NetflixNavbar
+        personaSlug="suitors"
+        links={[
+          { label: 'About Me', href: '/suitors' },
+          { label: 'Personal', href: '/about' },
+          { label: 'Adventures', href: '/projects' },
+          { label: 'Connect', href: '/contact' },
+        ]}
+      />
       {children}
       <Footer />
     </>

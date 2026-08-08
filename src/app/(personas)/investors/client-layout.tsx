@@ -1,6 +1,6 @@
 'use client';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
+import NetflixNavbar from '@/components/NetflixNavbar';
 
 export default function InvestorsClientLayout({
   children,
@@ -9,23 +9,15 @@ export default function InvestorsClientLayout({
 }) {
   return (
     <>
-      <button
-        className="back-btn"
-        onClick={() => window.location.href = '/'}
-      >
-        ← Back to Profiles
-      </button>
-      <header className="header">
-        <nav className="nav">
-          <div className="nav-logo">G</div>
-          <ul className="nav-links">
-            <li><Link href="/investors">Overview</Link></li>
-            <li><Link href="/projects">Portfolio</Link></li>
-            <li><Link href="/about">Track Record</Link></li>
-            <li><Link href="/contact">Connect</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <NetflixNavbar
+        personaSlug="investors"
+        links={[
+          { label: 'Overview', href: '/investors' },
+          { label: 'Portfolio', href: '/projects' },
+          { label: 'Track Record', href: '/about' },
+          { label: 'Connect', href: '/contact' },
+        ]}
+      />
       {children}
       <Footer />
     </>

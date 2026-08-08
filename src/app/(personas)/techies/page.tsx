@@ -2,6 +2,7 @@
 
 import React from 'react';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
 
@@ -10,20 +11,21 @@ export default function EngineersPage() {
     <NavigationProvider>
       <div className="netflix-page">
         {/* Hero Section */}
-        <div className="netflix-hero">
-          <NetflixCard
-            title="My Setup & Stack"
-            subtitle="Tools, technologies, and workflows that ship"
-            description="From hardware to deployment, here's what actually works. Teacher-turned-founder who builds products from the ground up with proven technologies."
-            imageUrl="/images/personas/techies/NAIC.JPG"
-            badge="Technical Leader"
-            rating="Full-Stack"
-            duration="7+ Years"
-            tags={["React", "Next.js", "TypeScript", "Python"]}
-            href="https://github.com/doylegavin"
-            size="hero"
-          />
-        </div>
+        <Billboard
+          title="My Setup & Stack"
+          tagline="Tools, technologies, and workflows that ship"
+          description="From hardware to deployment, here's what actually works. Teacher-turned-founder who builds products from the ground up with proven technologies."
+          imageUrl="/images/personas/techies/NAIC.JPG"
+          imagePosition={5}
+          match="97% Match"
+          year="2026"
+          parts="7+ Years Shipping"
+          badge="Now Streaming"
+          ratingFlag="Full-Stack"
+          meta={["React", "Next.js", "TypeScript", "Python"]}
+          primaryCta={{ text: 'View Code', href: 'https://github.com/doylegavin' }}
+          secondaryCta={{ text: 'More Info', href: '/projects' }}
+        />
 
         {/* Core Stack */}
         <NavSection title="Core Stack">

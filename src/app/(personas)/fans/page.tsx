@@ -2,6 +2,8 @@
 
 import React from 'react';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
+import Top10Card from '@/components/Top10Card';
 import { NavigationProvider } from '@/components/NavigationProvider';
 import NavSection from '@/components/NavSection';
 
@@ -9,22 +11,116 @@ export default function FansPage() {
   return (
     <NavigationProvider>
     <div className="netflix-page">
-      {/* Hero Section */}
-      <div className="netflix-hero">
-        <NetflixCard
-        title="Welcome, Fans! 🎭"
-          subtitle="Where technology meets artistry"
-          description="Step into my creative world of passion projects, creative experiments, and personal stories behind the code. From teacher to founder to creative technologist."
-          imageUrl="/images/personas/fans/basketball-headshot1.JPG"
-          badge="Creative"
-          rating="Artist & Tech"
-          duration="Passion Projects"
-          tags={["Creative", "Technology", "Art", "Music"]}
-          href="/projects"
-          size="hero"
+      {/* Billboard Hero */}
+      <Billboard
+        title="Welcome, Fans!"
+        tagline="Where technology meets artistry"
+        description="Step into my creative world of passion projects, creative experiments, and personal stories behind the code. From teacher to founder to creative technologist."
+        imageUrl="/images/Dunk.jpg"
+        imagePosition={9}
+        match="98% Match"
+        year="2026"
+        parts="10 Parts"
+        badge="#1 in Ireland Today"
+        ratingFlag="100% Gav"
+        meta={["Artist & Tech", "Passion Projects", "Creative"]}
+        primaryCta={{ text: 'Play', href: '/projects' }}
+        secondaryCta={{ text: 'More Info', href: '/about' }}
+      />
+
+      {/* Top 10 */}
+      <NavSection title="Top 10 Gavin Moments Today">
+        <Top10Card
+          rank={1}
+          title="The Dunk"
+          subtitle="Air Doyle"
+          description="Flying one-handed finish at the rim in the blue #8 - the crowd was watching."
+          imageUrl="/images/Dunk.jpg"
+          tags={["Basketball", "Airtime"]}
+          imagePosition={9}
+        />
+        <Top10Card
+          rank={2}
+          title="The Block"
+          subtitle="Not in my house"
+          description="Contesting a shot at the rim - denied at the summit."
+          imageUrl="/images/BasketballBlock.jpg"
+          tags={["Basketball", "Defense"]}
           imagePosition={8}
         />
-      </div>
+        <Top10Card
+          rank={3}
+          title="Olympics Away Days"
+          subtitle="COYBIG"
+          description="Draped in the tricolour at Stade de France for Olympics rugby."
+          imageUrl="/images/IrelandRugbyOlympics.JPG"
+          tags={["Ireland", "Olympics"]}
+          imagePosition={6}
+        />
+        <Top10Card
+          rank={4}
+          title="Game Day Cleans"
+          subtitle="Heavy metal"
+          description="Catching a heavy clean in the bottom of the squat. Eleiko plates, no fear."
+          imageUrl="/images/GameDayWeightliftingClean.JPG"
+          tags={["Lifting", "Power"]}
+          imagePosition={5}
+        />
+        <Top10Card
+          rank={5}
+          title="The Headshot"
+          subtitle="Ulster University"
+          description="Posed studio shot in the Ulster University Randox kit."
+          imageUrl="/images/BasketballHeadShot.JPG"
+          tags={["Basketball", "Scholarship"]}
+          imagePosition={8}
+        />
+        <Top10Card
+          rank={6}
+          title="The Pass"
+          subtitle="Mid-air vision"
+          description="Mid-air pass in the blue #8 kit - don't jump and pass, unless you can."
+          imageUrl="/images/BasketballPass.jpg"
+          tags={["Basketball", "Playmaking"]}
+          imagePosition={7}
+        />
+        <Top10Card
+          rank={7}
+          title="Squad Goals"
+          subtitle="Squad fr"
+          description="The whole team together on photoshoot day."
+          imageUrl="/images/personas/fans/basketball-photoshoot-team.JPG"
+          tags={["Team", "Squad"]}
+          imagePosition={7}
+        />
+        <Top10Card
+          rank={8}
+          title="The Photoshoot"
+          subtitle="Ball is life"
+          description="Our basketball club had a photoshoot day to promote the club and we RAN with it."
+          imageUrl="/images/personas/fans/basketball-photoshoot-main.JPG"
+          tags={["Photoshoot", "Bros"]}
+          imagePosition={10}
+        />
+        <Top10Card
+          rank={9}
+          title="Teamwork"
+          subtitle="Dream work"
+          description="Teamwork makes the dream work <3"
+          imageUrl="/images/personas/fans/basketball-photoshoot-wheelbarrow.JPG"
+          tags={["Teamwork", "Fun"]}
+          imagePosition={5}
+        />
+        <Top10Card
+          rank={10}
+          title="The Profile Pic"
+          subtitle="Come here you"
+          description="Reaching through the camera to personally thank each and every fan."
+          imageUrl="/images/ProfilePic.jpg"
+          tags={["Fans", "Love"]}
+          imagePosition={7}
+        />
+      </NavSection>
 
         {/* Basketball Photoshoot */}
         <NavSection title="Basketball Photoshoot Day">

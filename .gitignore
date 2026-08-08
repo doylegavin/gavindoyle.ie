@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code local tooling
+/.claude/
+
+# Raw video imports (HEVC .MOV) — convert to web MP4 before shipping
+/public/videos/

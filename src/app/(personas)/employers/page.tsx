@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import NetflixCard from '@/components/NetflixCard';
+import Billboard from '@/components/Billboard';
 import ContactModal from '@/components/ContactModal';
 import JsonLd, { personSchema } from '@/components/JsonLd';
 import { NavigationProvider } from '@/components/NavigationProvider';
@@ -53,35 +53,26 @@ export default function EmployersPage() {
       <div className="netflix-page">
         <JsonLd data={personSchema} />
 
-        {/* Hero Section */}
-        <div className="hero-section">
-          <div className="hero-left">
-            <h1 className="hero-name">Gavin Doyle</h1>
-            <h2 className="hero-role">Full-Stack Developer & Founder</h2>
-            <ul className="hero-highlights">
-              <li>Self-taught developer with production experience</li>
-              <li>Built Examinaite: 1,000+ users in 3 months</li>
-              <li>Enterprise Ireland New Frontiers Phase 2</li>
-              <li>7+ years teaching experience (PE & Mathematics)</li>
-              <li>Masters in Strength & Conditioning</li>
-              <li>Modern stack: Next.js, TypeScript, PostgreSQL</li>
-              <li>95+ Lighthouse scores across all projects</li>
-              <li>Available for freelance: one day per week</li>
-            </ul>
-          </div>
-          <div className="hero-right">
-            <Image
-              src="/images/personas/employers/headshot-full-smile.jpg"
-              alt="Gavin Doyle - Professional Headshot"
-              fill
-              className="hero-photo"
-              priority
-            />
-          </div>
-        </div>
+        {/* Billboard Hero */}
+        <Billboard
+          title="Gavin Doyle"
+          tagline="Full-Stack Developer & Founder"
+          description="Self-taught developer with production experience. Built Examinaite to 1,000+ users in 3 months, Enterprise Ireland New Frontiers Phase 2, 7+ years teaching experience. Modern stack: Next.js, TypeScript, PostgreSQL - 95+ Lighthouse scores across all projects."
+          imageUrl="/images/Me_and_the_Examinaite_team.JPG"
+          imagePosition={7}
+          contentAlign="right"
+          match="100% Match"
+          year="2026"
+          parts="7 Years Experience"
+          badge="Critically Acclaimed"
+          ratingFlag="Hire Me"
+          meta={["Next.js", "TypeScript", "PostgreSQL", "Freelance: 1 day/week"]}
+          primaryCta={{ text: 'View CV', href: '/cv/Gavin_Doyle_CV.pdf' }}
+          secondaryCta={{ text: 'Contact', href: '/contact' }}
+        />
 
         {/* Examinaite Project */}
-        <NavSection title="Flagship Project: Examinaite">
+        <NavSection title="Flagship Project: Examinaite" id="projects">
           <NetflixCard
             title="Classroom Integration"
             subtitle="Live teaching"
@@ -177,7 +168,7 @@ export default function EmployersPage() {
         </NavSection>
 
         {/* National AI Challenge & Competitions */}
-        <NavSection title="National AI Challenge & Competitions">
+        <NavSection title="National AI Challenge & Competitions" id="awards">
           <NetflixCard
             title="NAIC Presentation"
             subtitle="Finalist"
