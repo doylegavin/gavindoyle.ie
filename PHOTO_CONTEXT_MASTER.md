@@ -1,8 +1,8 @@
 # 📸 PHOTO CONTEXT MASTER - Complete Photo Inventory & Context
 
-**Last Updated:** August 8, 2026
+**Last Updated:** August 18, 2026
 **Total Photos:** 300+ photos across all directories
-**Newly Added (Needs Context):** 10 videos (August 8) + 10 photos (August 8) + 7 photos (August 7) + 50 photos (February 2)
+**Newly Added (Needs Context):** 14 photos (August 18) + 10 videos (August 8) + 10 photos (August 8) + 7 photos (August 7) + 50 photos (February 2)
 
 This is the single source of truth for ALL photo contexts across the entire website.
 
@@ -22,6 +22,7 @@ This is the single source of truth for ALL photo contexts across the entire webs
 Since cards are horizontal (16:9) but some photos are vertical, you can control which part of the image is shown when cropped.
 
 ### Position Scale (1-10):
+
 ```
 10 = TOP    (show the top of the photo - faces at top)
  9 = 
@@ -36,9 +37,11 @@ Since cards are horizontal (16:9) but some photos are vertical, you can control 
 ```
 
 ### How to Specify Position:
+
 Add `{pos:X}` after the context, where X is 1-10.
 
 **Examples:**
+
 ```
 - `basketball-headshot1.JPG` - my modeling career is dead and gone {pos:9}
   → Shows mostly the top of the image (good for headshots)
@@ -51,6 +54,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ```
 
 ### Quick Reference:
+
 - **Headshots/Faces at top** → `{pos:8}` to `{pos:10}`
 - **Centered subjects** → `{pos:5}` (or don't specify)
 - **Action at bottom/Feet** → `{pos:1}` to `{pos:3}`
@@ -63,6 +67,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 **Note:** All basketball photoshoot photos should be in a carousel at the top of Fans/Suitors pages. The description should be that our basketball club had a photoshoot day to promote the club and we RAN with it.
 
 ### Complete Context:
+
 - `basketball-photoshoot-holding.JPG` - I'm lowkey kinda strong this boy is like 110kg {pos:8}
 - `basketball-photoshoot-hugging.JPG` - we love love {pos:7}
 - `basketball-photoshoot-jump.JPG` - dont mess with us {pos:8}
@@ -77,6 +82,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `basketball-headshot1.JPG` - my modeling career is dead and gone {pos:8}
 
 ### Complete Context (continued):
+
 - `basketball-photoshoot-main.JPG` - I just wanna ball with my bros {pos:10}
 - `basketball_photoshoot.JPG` - I just wanna ball with my bros {pos:8}
 - `basketball-headshot.JPG` - I just wanna ball with my bros {pos:8}
@@ -87,6 +93,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 🏀 BASKETBALL GENERAL & ACHIEVEMENT PHOTOS
 
 ### Complete Context:
+
 - `baller-squad-weatherproof.jpg` - WEATHERPROOOOOOFFFFFF {pos:5}
 - `basketball-SL-2022.jpg` - The highest of fives for my friend Mark (I blocked him fr) {pos:8}
 - `basketball-SL.jpg` - Dont jump and pass!! {pos:5}
@@ -107,6 +114,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 **User Note:** These are all team pictures of successful teams from when I was in secondary school in Ardscoil Rís - we were a very successful basketball team, winning leinster nearly every year and some all ireland success too.
 
 ### Complete Context:
+
 - `schoolball.JPG` - We are immortalised forever on the Walls of Ardscoil Rís Sports Hall {pos:5}
 - `schoolball2.JPG` - We are immortalised forever on the Walls of Ardscoil Rís Sports Hall {pos:5}
 - `schoolball3.JPG` - We are immortalised forever on the Walls of Ardscoil Rís Sports Hall {pos:5}
@@ -117,6 +125,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 👥 SOCIAL/FRIENDS PHOTOS
 
 ### Complete Context:
+
 - `belfast-roommates.JPG` - Fruit bowls HATE to see us coming {pos:5}
 - `boys-in-ollies.JPG` - Bad day to be the dancefloor in Ollie's {pos:5}
 - `fav-photo-of-me-and-luke.jpg` - Best Friends for more than half of our lives. Here's to the rest of it {pos:8}
@@ -133,6 +142,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `me-and-mary-and-tosh.jpg` - me with my best friends parents, Mary and Tosh - this should go where we tell the story of how Mary Byrne inspired me to become a teacher in the first place {pos:5}
 
 ### Complete Context (continued):
+
 - `boys-in-kellys.JPG` - Kellys is the best pint of Guinness in Ireland {pos:5}
 
 ---
@@ -140,6 +150,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 💑 DATING/SOCIAL EVENTS
 
 ### Complete Context:
+
 - `me-at-a-ball-with-kateoconnor.JPG` - Glad to see one of my fans doing well for herself (Kate O'Connor, Olympian, World Silver medalist, Irish Sportsperson of the year) {pos:8}
 - `me-at-oasis.JPG` - I love Oasis so much I am so unhealthily obsessed I've been in the top 0.01% of worldwide listeners for the past 4 years {pos:5}
 - `gav-looking-cool-in-nightclub-infernos.JPG` - Do these suit me?? {pos:7}
@@ -149,6 +160,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 💪 FITNESS/ATHLETIC PHOTOS
 
 ### Complete Context:
+
 - `gav-in-gym-legs.jpg` - Arm day {pos:8}
 - `gav-mirror-pic.jpg` - Man I love this mirror {pos:8}
 - `gav-mirror-pic2.jpg` - Man I love this mirror x2 {pos:8}
@@ -158,6 +170,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `completing-a-hyrox.jpg` - Me and my best friend Ciaran after completing our first Hyrox together in Barcelona! It was brutal. I thought it would be easy so I didn't do any training as I thought I'd be fine. I'm not much of a runner so we didn't do as well as expected! But still fun. {pos:6}
 
 ### Needs Context:
+
 - `last-spaghetti-arms.JPG` - The final Spaghetti Arms **NEEDS MORE CONTEXT** {pos:5}
 
 ---
@@ -165,6 +178,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## ✈️ TRAVEL/LOCATION PHOTOS
 
 ### Complete Context:
+
 - `laneway.JPG` - found a cool lane way once and decided it would be a great photo opp {pos:5}
 - `laneway2.JPG` - Lil impromptu fashion shoot {pos:5}
 - `vintage-paris.JPG` - Vintage lense of Paris {pos:5}
@@ -184,6 +198,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `me-on-sanfrancisco-pier.JPG` - SF Pier ft. the seals {pos:5}
 
 ### Complete Context (continued):
+
 - `supporting-ireland-at-olympics.JPG` - COYBIG {pos:5}
 
 ---
@@ -191,6 +206,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📸 PERSONAL/LIFESTYLE PHOTOS
 
 ### Complete Context:
+
 - `coolest-tshirt.jpg` - My biggest regret in life was NOT buying this t shirt {pos:5}
 - `first-and-last-movember.jpg` - My first and last Movember {pos:5}
 - `first-modelling-shoot.JPG` - First Modeling shoot hehe {pos:9}
@@ -208,6 +224,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `artboy3.JPG` - I'm an artsy boy {pos:5}
 
 ### Complete Context (continued):
+
 - `gav-with-art.JPG` - Very Fine Very Art {pos:5}
 - `me-driving-a-van.JPG` - One of my favourite things to do in life is drive my dads van {pos:7}
 - `me-funny-screaming.JPG` - Goofy ah scream {pos:5}
@@ -218,9 +235,11 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 🎵 SPECIAL EVENTS/CONCERTS
 
 ### Complete Context:
+
 - `drinking-guinness.jpg` - Cool photo of me and my friend David drinking Guinness after going to see Oasis in Croke Park, 2025. One of the best nights of my life, a dream come true. Oasis are my favourite band. {pos:5}
 
 ### Complete Context (continued):
+
 - `at_oasis_gig.JPG` - Seeing Oasis irl was the best night of my life {pos:5}
 - `cool_drinking_guinness_at_oasis.JPG` - Probably the first time I ever felt cool {pos:5}
 - `at-olympic-rugby-game-with-irish-ireland-flag.JPG` - Come on you girls in green {pos:5}
@@ -230,6 +249,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 🧒 CHILDHOOD/FAMILY PHOTOS
 
 ### Complete Context:
+
 - `12yo-gav.JPG` - Me and my cousins receiving our Christmas presents on our nana's floor, 2010 {pos:5}
 - `babyphoto.JPG` - A cute baby photo of myself, I used to be cute! {pos:5}
 
@@ -238,6 +258,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## ☕ COFFEE/FOOD CULTURE
 
 ### Complete Context:
+
 - `getting_coffee.JPG` - (Currently used on Curious page) {pos:5}
 - `]getting-coffee.JPG` - Me, in my favourite coffee shop, 3fe, getting served coffee by my favourite barista and friend, Eric the Wizard {pos:5}
 - `latte-art.JPG` - The boys in 3fe have been teaching me to do some latte art - not bad ay!!! {pos:5}
@@ -247,6 +268,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - EXAMINAITE
 
 ### Available Photos (with context needed):
+
 - `examinaite_early_screenshot.png` - early screenshot of Examinaites development {pos:8}
 - `examinaite_in_thePitchUK.png` - We're in the Pitch UK! top 8 out of 1000+ applications {pos:6}
 - `examinaite_irish_times_article.png` - My first newspaper article!!! {pos:8}
@@ -257,6 +279,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `in_classoom_teaching_examinaite.JPG` - Inside look at Examinaite {pos:8}
 
 ### Placeholder Files (need real screenshots):
+
 - `examinaite-hero.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `examinaite-dashboard.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `examinaite-questions.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
@@ -270,11 +293,13 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - GLÓRAI
 
 ### Available Photos (with context):
+
 - `glorai1.png` - (Currently used on Employers, Investors, Techies pages) {pos:5}
 - `glorai2.png` - (Currently used on Employers, Investors, Techies pages) {pos:5}
 - `glorai3.png` - (Currently used on Employers, Investors, Techies pages) {pos:5}
 
 ### Placeholder Files (need real screenshots):
+
 - `glorai-hero.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `glorai-dashboard.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `glorai-questions.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
@@ -287,9 +312,11 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - DRONAN WEDDINGS
 
 ### Available Photos:
+
 - `dronan-weddings.png` - (Currently used on Employers, Techies pages) {pos:5}
 
 ### Placeholder Files (need real screenshots):
+
 - `dronan-hero.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `dronan-dashboard.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `dronan-hero.svg` - **SVG placeholder** {pos:5}
@@ -301,12 +328,14 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - THE KNEECAPP
 
 ### Available Photos:
+
 - `thekneecap.png` - (Currently used on Fans, Techies pages) {pos:5}
 - `thekneecap2.png` - (Currently used on Employers, Techies pages) {pos:5}
 - `thekneecap3.png` - (Currently used on Employers, Techies pages) {pos:5}
 - `thekneecap4.png` - Is brea liom Kneecapp {pos:5}
 
 ### Placeholder Files (need real screenshots):
+
 - `kneecapp-hero.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `kneecapp-dashboard.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
 - `kneecapp-questions.jpg` - **PLACEHOLDER - needs real screenshot** {pos:5}
@@ -319,6 +348,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 PROJECT SCREENSHOTS - BART ARTIST PORTFOLIO
 
 ### Available Photos:
+
 - `bart.png` - (Currently used on Employers, Techies pages) {pos:5}
 - `bart2.png` - (Currently used on Employers, Techies pages) {pos:5}
 - `bart3.png` - Bart project {pos:5}
@@ -328,6 +358,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 TEAM/EVENT PHOTOS
 
 ### Complete Context:
+
 - `NAIC-team.jpeg` - National AI Challenge team photo - Avengers fr {pos:5}
 - `NAIC.JPG` - National AI Challenge, Ireland's largest hackathon {pos:5}
 - `podcast-cybersecurity.JPG` - My first podcast invite!! {pos:5}
@@ -338,6 +369,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 👔 PROFESSIONAL HEADSHOTS
 
 ### Synergy Professional Photos (Used on Investors page):
+
 - `250828_Synergy-03457.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
 - `250828_Synergy-03462.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
 - `250828_Synergy-03467.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
@@ -345,6 +377,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `250828_Synergy-3452.jpg` - Professional executive headshot from Synergy photoshoot {pos:7}
 
 ### Black & White Headshots (Used on Employers page)
+
 - `headshot-black-and-white-full-smile.jpg` - Professional B&W headshot {pos:7}
 - `headshot-black-and-white-half-smile.jpg` - Professional B&W headshot {pos:7}
 - `headshot-black-and-white-serious.jpg` - Professional B&W headshot {pos:7}
@@ -356,6 +389,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📹 VIDEO FILES
 
 ### Needs Context:
+
 - `first-guinness-in-a-year.MOV` - I tried to go a year without drink, I did it. All of age 26 with no drink! This was my first pint in over a year (in Curious, Fans folders) {pos:5}
 - `new-shoes.MOV` -My favourite shoes of all time dont @ me (in Curious, Fans folders) {pos:5}
 - `weak-hand-three.MOV` - My bad hand is better than your good hand (in Curious, Fans, Suitors folders) {pos:5}
@@ -365,6 +399,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📱 HEIC FILES (iPhone Photos)
 
 ### Needs Context:
+
 - `IMG_6297.HEIC` - **NEEDS CONTEXT** (in Fans folder) {pos:5}
 - `IMG_8720.HEIC` - **NEEDS CONTEXT** (in Fans folder) {pos:5}
 - `IMG_0616 2.HEIC` - **NEEDS CONTEXT** (in Suitors folder) {pos:5}
@@ -379,6 +414,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 🖼️ BACKGROUND/HERO IMAGES
 
 ### Needs Context:
+
 - `IMG_7423 2.HEIC` - **NEEDS CONTEXT** (in backgrounds folder) {pos:5}
 
 ---
@@ -386,6 +422,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ## 📝 BLOG IMAGES (Need to be Created)
 
 ### All Blog Cover Images Missing:
+
 - `examinaite-v2-progress.jpg` - **MISSING** - Cover for "Working on adaptive difficulty and better PDF exports" {pos:5}
 - `irish-ai-voice-bot-journey.jpg` - **MISSING** - Cover for "Building GlórAI from scratch" {pos:5}
 - `from-teacher-to-founder.jpg` - **MISSING** - Cover for "Lessons learned making the jump" {pos:5}
@@ -395,6 +432,50 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `basketball-to-code.jpg` - **MISSING** - Cover for "How semi-pro basketball prepared me for startup life" {pos:5}
 - `coffee-culture-and-creativity.jpg` - **MISSING** - Cover for "Why I only drink coffee from 3fe" {pos:5}
 - `teaching-in-the-ai-age.jpg` - **MISSING** - Cover for "Unpopular opinion: AI is already better than some teachers" {pos:5}
+
+---
+
+## 🆕 NEWLY ADDED PHOTOS - AUGUST 18, 2026 - NEEDS CONTEXT (14 photos)
+
+**Source:** Photos added to the Downloads folder today (Aug 18, 2026). All copied to `public/images/`. They are staged here awaiting your captions — once you fill in context below I'll assign each one to the right page(s).
+
+**✅ Placed:** all 14 now live on the **Suitors** page (Creative / Adventures / Music & Nightlife / Friends & Family / Fun sections).
+
+**⚠️ Duplicate removed:** `IMG_1194.jpeg` was a byte-identical copy of `golden-hour`-era shot `HAHAHAHAHA.jpeg`, so only `HAHAHAHAHA.jpeg` was kept in `public/images/` (the original `IMG_1194.jpeg` is still in your Downloads folder if you want it).
+
+**Fill in YOUR context/caption after each dash. The line after the filename says what's visible + a suggested crop `{pos:X}` — tweak the pos if you want a different part of the photo shown.**
+
+### 🌄 Golden-hour hilltop series (hike/mountains)
+
+- `golden-hour-handsome.jpeg` - What a view am I right ladies??? {pos:8}
+- `golden-hour-mog.jpeg` - Get MOGGED {pos:8}
+
+### ☕ Coffee / café
+
+- `two-pups.jpeg` - Two Pups with two pups 🤪🤪🤪  {pos:6}
+- `happy-coffee.jpeg` - I think everyone needs to see this photo at least once in their life. Thanks Joe  {pos:5}
+
+### 👥 Family / social
+
+- `breakfast-with-the-GOAT.jpeg` - Nana's birthday breakfast!!! 81 outta 10 {pos:5}
+- `kneecap-HOOD.jpeg` - IM A H DOUBLE O D !! This was at a Wolfe Tones concert btw {pos:6}
+
+### 🍻 Nights out
+
+- `HAHAHAHAHA.jpeg` -  Get me off the Limoncello Spritz asap {pos:7}
+- `the-most-beautiful-jagerbomb.jpeg` - This is the most beautiful jagerbomb I've ever seen in my life. Curtosy of some really cool dude who works at Daphni {pos:5}
+
+### ✈️ Travel — Chichen Itza, Mexico
+
+- `yup-chichen-itza.jpeg` - If yup bros did Chichen Itza - YUP CHICHEN ITZA {pos:6}
+- `backgroundmaxxing-chichen-itza.jpeg` - This one cleans up on Hinge #backgroundmaxxing {pos:5}
+
+### 🧒 Childhood / family throwbacks (scanned prints)
+
+- `gavin-and-jack-baby.JPG` - Me and the baby bro {pos:7}
+- `big-ass-head-gas.JPG` - BIG ASS HEAD - thanks for dripping me out in Timberland mam x {pos:8}
+- `cute-baby-gav.JPG` - How cute was I {pos:7}
+- `baby-gav-hairstyle.JPG` - My mam and my nana wanted a baby girl hence this {pos:7}
 
 ---
 
@@ -436,6 +517,13 @@ Add `{pos:X}` after the context, where X is 1-10.
 - `JEFF2872.jpg` - Speaking to a packed room from the back of the audience - **NEEDS CONTEXT** {pos:5}
 - `JEFF2874.jpg` - Second wide crowd shot of the talk - **NEEDS CONTEXT** {pos:5}
 
+### 🎤 High-res keynote shots — renamed NES1 / NES2
+
+**Talk title:** *The Future of Education: It's Weirder Than You Think!* — Gavin's keynote at the National Education Show ("Empowering Education in Ireland"). Two hand-picked high-resolution (6000×4000) shots, renamed for easy reuse. Now live on the site:
+
+- `NES1.jpg` - Wide, centred keynote shot — Gavin mid-talk, full audience, "Empowering Education in Ireland" backdrop. **→ Now the Employers page hero/background.** {pos:5}
+- `NES2.jpg` - Dynamic angled keynote shot — arm out, engaged audience in the foreground, NES banner. **→ Now the Investors page hero/background** (also appears as an Employers keynote card). {pos:5}
+
 **Note:** Not imported: `drive-download-20260225...` (Oisin mascot PNGs — Examinaite product assets, not personal-site photos) and `drive-download-20250810...` (Barcelona/Lisbon/Paris/Rome/Santorini .mp4 travel videos — say the word if you want these added as video cards).
 
 ---
@@ -463,6 +551,7 @@ Add `{pos:X}` after the context, where X is 1-10.
 ### ROOT DIRECTORY - New Photos (35 photos)
 
 Personal, Social & Event Photos:
+
 - `ALFIE.jpg` - This is my crazy cousin Alfie  {pos:5}
 - `ALFIE2.jpg` - This is my crazy cousin Alfie {pos:7}
 - `AllIwantforchristmasisyou.PNG` - I am so bloody funny (This is my teen cousin she hates me) {pos:7}
@@ -489,6 +578,7 @@ Personal, Social & Event Photos:
 - `Myfirstflowers.jpeg` - My first flower arrangement (Yeah I made them myself) {pos:5}
 
 Professional/Achievement Photos:
+
 - `DCU_Nov_OpenDay.JPG` - Back to the Old Stomping ground for the DCU open day! {pos:5}
 - `IrishIndependentArticle.jpg` - Taking over the National News {pos:7}
 - `Me_and_the_Examinaite_team.JPG` - teaching these kids a thing or two {pos:7}
@@ -500,11 +590,14 @@ Professional/Achievement Photos:
 - `TheIrishTimesArticle.jpg` - Who's this guy {pos:8}
 
 Fitness Photos:
+
 - `PostHalfMarathon.jpeg` - PostHalfMarathon {pos:5}
 - `PreHalfMarathon.jpeg` - PreHalfMarathon {pos:5}
 
 ### PROFILE AVATARS (8 photos)
+
 Marketing page profile images:
+
 - `curious.png` - Profile avatar for Curious/Stalkers persona {pos:5}
 - `employers.png` - Profile avatar for Employers persona {pos:5}
 - `engineers.png` - Profile avatar for Techies persona {pos:5}
@@ -515,10 +608,13 @@ Marketing page profile images:
 - `techies.png` - Profile avatar for Techies persona {pos:5}
 
 ### PROJECTS (1 photo)
+
 - `dronan-questions.jpg` - **NEEDS CONTEXT** (project screenshot) {pos:5}
 
 ### GENERAL/LOGOS (5 SVG files)
+
 Social media and platform logos:
+
 - `calendly-logo.svg` - Calendly logo (no context needed)
 - `github-logo.svg` - GitHub logo (no context needed)
 - `gmail-logo.svg` - Gmail logo (no context needed)
@@ -526,6 +622,7 @@ Social media and platform logos:
 - `linkedin-logo.svg` - LinkedIn logo (no context needed)
 
 ### DUPLICATE FILES (Already documented but appear in multiple directories)
+
 - `basketball-photoshoot.JPG` - Appears in fans and suitors folders (already documented)
 
 ---
@@ -533,15 +630,23 @@ Social media and platform logos:
 ## 📊 SUMMARY STATISTICS
 
 ### Photos with Complete Context: ~199 photos ✅
+
 ### Photos Needing Context: ~59 photos (including 43 newly added)
+
 ### Profile Avatars: 8 photos (documented)
+
 ### General Logos: 5 SVG files (no context needed)
+
 ### Placeholder/Missing Photos: ~40 files (project screenshots and blog images)
+
 ### Video Files Needing Context: 3 files
+
 ### HEIC Files Needing Context: 8 files
+
 ### **TOTAL PHOTOS IN PROJECT: 280+ photos**
 
 ### By Persona:
+
 - **Curious:** 71 total files (15 used, 56 need context/unused)
 - **Fans:** 76 total files (15 used, 61 need context/unused)
 - **Suitors:** 72 total files (18 used, 54 need context/unused)
@@ -554,4 +659,3 @@ Social media and platform logos:
 **See PHOTO_USAGE_TRACKER.md for detailed information on where each photo is used across all pages.**
 
 **See TODO_FOR_GAVIN.md for a prioritized list of content and context needed from you.**
-

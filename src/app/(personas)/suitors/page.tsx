@@ -13,7 +13,7 @@ export default function SuitorsPage() {
         {/* Hero Section */}
         <Billboard
           title="The Complete Package"
-          tagline="6'2&quot;, athletic, creative, ambitious"
+          tagline="6'0&quot;, athletic, creative, ambitious"
           description="Teacher-turned-founder building the future of education. Love basketball, photography, coffee culture, and deep conversations. Based in Dublin, ready for adventures."
           imageUrl="/images/personas/suitors/basketball-photoshoot-main.JPG"
           imagePosition={10}
@@ -182,6 +182,22 @@ export default function SuitorsPage() {
         {/* Creative & Art */}
         <NavSection title="Creative Side">
           <NetflixCard
+            title="Two Pups With Two Pups"
+            subtitle="Coffee run"
+            description="Two Pups with two pups 🤪🤪🤪"
+            imageUrl="/images/two-pups.jpeg"
+            tags={["Coffee", "Dublin", "Two Pups"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="Happy Coffee"
+            subtitle="Thanks Joe"
+            description="I think everyone needs to see this photo at least once in their life. Thanks Joe"
+            imageUrl="/images/happy-coffee.jpeg"
+            tags={["Coffee", "Smiley", "Wholesome"]}
+            imagePosition={5}
+          />
+          <NetflixCard
             title="With My Art"
             subtitle="Very fine very art"
             description="Very Fine Very Art - appreciating the creative things."
@@ -257,6 +273,22 @@ export default function SuitorsPage() {
 
         {/* Travel & Adventures */}
         <NavSection title="Adventures">
+          <NetflixCard
+            title="Yup Chichen Itza"
+            subtitle="Mexico"
+            description="If yup bros did Chichen Itza - YUP CHICHEN ITZA"
+            imageUrl="/images/yup-chichen-itza.jpeg"
+            tags={["Mexico", "Travel", "Chichen Itza"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="Backgroundmaxxing"
+            subtitle="#backgroundmaxxing"
+            description="This one cleans up on Hinge #backgroundmaxxing"
+            imageUrl="/images/backgroundmaxxing-chichen-itza.jpeg"
+            tags={["Mexico", "Travel", "Hinge"]}
+            imagePosition={5}
+          />
           <NetflixCard
             title="Scottish Mountains"
             subtitle="Hiking"
@@ -375,6 +407,30 @@ export default function SuitorsPage() {
         {/* Music & Social */}
         <NavSection title="Music & Nightlife">
           <NetflixCard
+            title="H-O-O-D"
+            subtitle="Wolfe Tones concert"
+            description="IM A H DOUBLE O D !! This was at a Wolfe Tones concert btw"
+            imageUrl="/images/kneecap-HOOD.jpeg"
+            tags={["Wolfe Tones", "Trad", "Concert"]}
+            imagePosition={6}
+          />
+          <NetflixCard
+            title="Limoncello Spritz"
+            subtitle="Get me off it asap"
+            description="Get me off the Limoncello Spritz asap"
+            imageUrl="/images/HAHAHAHAHA.jpeg"
+            tags={["Spritz", "Rooftop", "Laughing"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="The Most Beautiful Jägerbomb"
+            subtitle="Courtesy of Daphni"
+            description="This is the most beautiful jagerbomb I've ever seen in my life. Curtosy of some really cool dude who works at Daphni"
+            imageUrl="/images/the-most-beautiful-jagerbomb.jpeg"
+            tags={["Jägerbomb", "Daphni", "Night out"]}
+            imagePosition={5}
+          />
+          <NetflixCard
             title="Oasis Fan"
             subtitle="Unhealthily obsessed"
             description="I love Oasis so much I am so unhealthily obsessed I've been in the top 0.01% of worldwide listeners for the past 4 years."
@@ -432,6 +488,22 @@ export default function SuitorsPage() {
 
         {/* Friends & Social */}
         <NavSection title="Friends & Family">
+          <NetflixCard
+            title="Breakfast With The GOAT"
+            subtitle="Nana's birthday"
+            description="Nana's birthday breakfast!!! 81 outta 10"
+            imageUrl="/images/breakfast-with-the-GOAT.jpeg"
+            tags={["Nana", "Family", "Birthday"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="Me And The Baby Bro"
+            subtitle="Throwback"
+            description="Me and the baby bro"
+            imageUrl="/images/gavin-and-jack-baby.JPG"
+            tags={["Family", "Throwback", "Brothers"]}
+            imagePosition={7}
+          />
           <NetflixCard
             title="Best Friend"
             subtitle="More than half our lives"
@@ -557,6 +629,46 @@ export default function SuitorsPage() {
 
         {/* Fun & Personality */}
         <NavSection title="Fun Side">
+          <NetflixCard
+            title="What A View"
+            subtitle="Am I right ladies?"
+            description="What a view am I right ladies???"
+            imageUrl="/images/golden-hour-handsome.jpeg"
+            tags={["Golden hour", "Hike", "Views"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Get MOGGED"
+            subtitle="Golden hour"
+            description="Get MOGGED"
+            imageUrl="/images/golden-hour-mog.jpeg"
+            tags={["Golden hour", "Mogging", "Hike"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="Big Ass Head"
+            subtitle="Timberland baby"
+            description="BIG ASS HEAD - thanks for dripping me out in Timberland mam x"
+            imageUrl="/images/big-ass-head-gas.JPG"
+            tags={["Throwback", "Timberland", "Baby"]}
+            imagePosition={8}
+          />
+          <NetflixCard
+            title="How Cute Was I"
+            subtitle="Baby Gav"
+            description="How cute was I"
+            imageUrl="/images/cute-baby-gav.JPG"
+            tags={["Throwback", "Baby", "Cute"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="They Wanted A Girl"
+            subtitle="Baby Gav hairstyle"
+            description="My mam and my nana wanted a baby girl hence this"
+            imageUrl="/images/baby-gav-hairstyle.JPG"
+            tags={["Throwback", "Baby", "Hairstyle"]}
+            imagePosition={7}
+          />
           <NetflixCard
             title="Goofy Scream"
             subtitle="Don't take life too seriously"

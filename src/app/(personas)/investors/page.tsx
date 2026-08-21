@@ -15,8 +15,8 @@ export default function InvestorsPage() {
           title="Investment Opportunity"
           tagline="Serial entrepreneur & technical founder"
           description="Track record of building scalable products, leading high-performing teams, and delivering measurable ROI in competitive markets. Ready for next-level growth."
-          imageUrl="/images/Pitching_at_AmazonHQ_ThePitchUK.JPG"
-          imagePosition={6}
+          imageUrl="/images/NES2.jpg"
+          imagePosition={5}
           match="97% Match"
           year="2026"
           parts="Series A"
@@ -27,46 +27,30 @@ export default function InvestorsPage() {
           secondaryCta={{ text: 'More Info', href: '/about' }}
         />
 
-        {/* Professional Headshots */}
-        <NavSection title="Professional Executive Headshots">
+        {/* Meet the Founder */}
+        <NavSection title="Meet the Founder">
           <NetflixCard
-            title="Synergy Headshot 1"
-            subtitle="Executive portrait"
-            description="Professional executive headshot from Synergy photoshoot."
+            title="Executive Portrait"
+            subtitle="Synergy photoshoot"
+            description="Professional executive headshot from the Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-03457.jpg"
-            tags={["Executive", "Professional", "Synergy"]}
+            tags={["Executive", "Professional", "Founder"]}
             imagePosition={7}
           />
           <NetflixCard
-            title="Synergy Headshot 2"
-            subtitle="Executive portrait"
-            description="Professional executive headshot from Synergy photoshoot."
-            imageUrl="/images/personas/investors/250828_Synergy-03462.jpg"
-            tags={["Executive", "Professional", "Synergy"]}
+            title="Studio Portrait"
+            subtitle="Black & white"
+            description="Professional black & white studio headshot."
+            imageUrl="/images/personas/employers/headshot-black-and-white-serious.jpg"
+            tags={["Executive", "Professional", "B&W"]}
             imagePosition={7}
           />
           <NetflixCard
-            title="Synergy Headshot 3"
-            subtitle="Executive portrait"
-            description="Professional executive headshot from Synergy photoshoot."
+            title="Boardroom Ready"
+            subtitle="Synergy photoshoot"
+            description="Professional executive headshot from the Synergy photoshoot."
             imageUrl="/images/personas/investors/250828_Synergy-03467.jpg"
-            tags={["Executive", "Professional", "Synergy"]}
-            imagePosition={7}
-          />
-          <NetflixCard
-            title="Synergy Headshot 4"
-            subtitle="Executive portrait"
-            description="Professional executive headshot from Synergy photoshoot."
-            imageUrl="/images/personas/investors/250828_Synergy-3437.jpg"
-            tags={["Executive", "Professional", "Synergy"]}
-            imagePosition={7}
-          />
-          <NetflixCard
-            title="Synergy Headshot 5"
-            subtitle="Executive portrait"
-            description="Professional executive headshot from Synergy photoshoot."
-            imageUrl="/images/personas/investors/250828_Synergy-3452.jpg"
-            tags={["Executive", "Professional", "Synergy"]}
+            tags={["Executive", "Professional", "Founder"]}
             imagePosition={7}
           />
         </NavSection>
@@ -77,7 +61,7 @@ export default function InvestorsPage() {
             title="Market Traction"
             subtitle="Proven growth metrics"
             description="Built and scaled products serving 1000+ active users in EdTech. Achieved consistent month-over-month growth in competitive SaaS markets with strong user retention."
-            imageUrl="/images/personas/investors/250828_Synergy-03457.jpg"
+            imageUrl="/images/personas/employers/headshot-full-smile.jpg"
             tags={["EdTech", "SaaS", "Growth", "Retention"]}
             imagePosition={7}
           />
@@ -93,7 +77,7 @@ export default function InvestorsPage() {
             title="Market Opportunity"
             subtitle="EdTech disruption"
             description="Education technology market ripe for innovation. AI-powered learning tools, personalized education, scalable SaaS models with recurring revenue."
-            imageUrl="/images/personas/investors/250828_Synergy-3452.jpg"
+            imageUrl="/images/personas/employers/headshot-half-smile.jpg"
             tags={["EdTech", "AI", "SaaS", "Innovation"]}
             imagePosition={7}
           />
@@ -101,21 +85,29 @@ export default function InvestorsPage() {
             title="Team & Vision"
             subtitle="Execution focused"
             description="Teacher-turned-founder with deep domain expertise. Proven ability to build, ship, and scale products. Clear vision for AI-powered education."
-            imageUrl="/images/personas/investors/teaching-in-class-examinaite.JPG"
-            tags={["Teaching", "Examinaite", "Classroom", "Education"]}
-            imagePosition={8}
+            imageUrl="/images/Me_and_the_Examinaite_team.JPG"
+            tags={["Team", "Examinaite", "Vision", "Execution"]}
+            imagePosition={7}
           />
         </NavSection>
 
         {/* Press & Media Coverage */}
         <NavSection title="Press & Media Coverage">
           <NetflixCard
+            title="The Future of Education: It's Weirder Than You Think!"
+            subtitle="National Education Show keynote"
+            description="Keynote speaker at the National Education Show — presenting 'The Future of Education: It's Weirder Than You Think!' to a packed room. Empowering Education in Ireland."
+            imageUrl="/images/NES1.jpg"
+            tags={["Keynote", "Speaking", "Thought Leadership"]}
+            imagePosition={5}
+          />
+          <NetflixCard
             title="The Pitch UK Finalist"
             subtitle="Top 8 of 1000+"
             description="We're in the Pitch UK! top 8 out of 1000+ applications - competing at Amazon HQ."
-            imageUrl="/images/examinaite_in_thePitchUK.png"
+            imageUrl="/images/ThePitchUKFinalist.jpeg"
             tags={["Pitch UK", "Finalist", "Competition"]}
-            imagePosition={6}
+            imagePosition={7}
           />
           <NetflixCard
             title="Pitching at Amazon HQ"
@@ -134,18 +126,10 @@ export default function InvestorsPage() {
             imagePosition={6}
           />
           <NetflixCard
-            title="The Pitch UK Finalist Badge"
-            subtitle="Official recognition"
-            description="Finalist ;* - official recognition from The Pitch UK competition."
-            imageUrl="/images/ThePitchUKFinalist.jpeg"
-            tags={["Finalist", "Recognition", "Badge"]}
-            imagePosition={7}
-          />
-          <NetflixCard
             title="Irish Times Article"
             subtitle="First newspaper feature"
             description="My first newspaper article!!! - The Irish Times covering Examinaite."
-            imageUrl="/images/examinaite_irish_times_article.png"
+            imageUrl="/images/personas/employers/examinaite_irish_times_article.png"
             tags={["Irish Times", "Press", "Coverage"]}
             imagePosition={8}
           />
@@ -243,15 +227,15 @@ export default function InvestorsPage() {
             title="Classroom Implementation"
             subtitle="Real-world testing"
             description="Inside look at Examinaite - implementing technology in real classrooms with real students."
-            imageUrl="/images/in_classoom_teaching_examinaite.JPG"
+            imageUrl="/images/personas/employers/in_classoom_teaching_examinaite.JPG"
             tags={["Classroom", "Implementation", "Testing"]}
             imagePosition={8}
           />
           <NetflixCard
             title="Early Development"
             subtitle="Building from scratch"
-            description="Early screenshot of Examinaite's development - technical founder building the product hands-on."
-            imageUrl="/images/examinaite_early_screenshot.png"
+            description="An early look at Examinaite's development - technical founder building the product hands-on."
+            imageUrl="/images/personas/employers/examinaite3.png"
             tags={["Development", "Technical", "Founder"]}
             imagePosition={8}
           />
@@ -259,7 +243,7 @@ export default function InvestorsPage() {
             title="Platform Evolution"
             subtitle="Product development"
             description="Inside look at Examinaite - iterating and improving based on user feedback."
-            imageUrl="/images/examinaite1.png"
+            imageUrl="/images/personas/employers/examinaite1.png"
             tags={["Product", "Evolution", "UX"]}
             imagePosition={8}
           />
@@ -267,7 +251,7 @@ export default function InvestorsPage() {
             title="AI-Powered Features"
             subtitle="Technical innovation"
             description="Inside look at Examinaite - AI-powered question generation and adaptive learning."
-            imageUrl="/images/examinaite2.png"
+            imageUrl="/images/personas/employers/examinaite2.png"
             tags={["AI", "Innovation", "Features"]}
             imagePosition={8}
           />
@@ -282,14 +266,14 @@ export default function InvestorsPage() {
             title="National Cup Winner"
             subtitle="Championship mentality"
             description="Winner Winner Pints for Dinner - national basketball cup champion. Winning mindset applied to business."
-            imageUrl="/images/winning-basketball-national-cup.JPG"
+            imageUrl="/images/personas/fans/winning-basketball-national-cup.JPG"
             tags={["Winner", "Champion", "Mindset"]}
           />
           <NetflixCard
             title="School Success"
             subtitle="Hall of fame"
             description="We are immortalised forever on the Walls of Ardscoil Rís Sports Hall - history of winning teams and achieving goals."
-            imageUrl="/images/schoolball.JPG"
+            imageUrl="/images/personas/fans/schoolball.JPG"
             tags={["Success", "Achievement", "Legacy"]}
           />
         </NavSection>
@@ -300,21 +284,21 @@ export default function InvestorsPage() {
             title="GlórAI Platform"
             subtitle="Ireland's first Irish voicebot"
             description="GlórAI - Ireland's first Irish-language AI voice companion. National AI Challenge finalist, built with OpenAI Whisper, GPT-4, and Web Speech API. Demonstrates technical capability in cutting-edge AI."
-            imageUrl="/images/glorai1.png"
+            imageUrl="/images/personas/employers/glorai1.png"
             tags={["GlórAI", "AI", "Voice", "Irish"]}
           />
           <NetflixCard
             title="Voice Technology"
             subtitle="Technical innovation"
             description="Built voice recognition and synthesis for Irish language - solving complex technical challenges in NLP and voice AI."
-            imageUrl="/images/glorai2.png"
+            imageUrl="/images/personas/employers/glorai2.png"
             tags={["Voice", "NLP", "Innovation"]}
           />
           <NetflixCard
             title="User Interface"
             subtitle="Product design"
             description="Clean, intuitive interface for voice learning - focus on user experience and conversion."
-            imageUrl="/images/glorai3.png"
+            imageUrl="/images/personas/employers/glorai3.png"
             tags={["UI", "UX", "Design"]}
           />
         </NavSection>
@@ -325,7 +309,7 @@ export default function InvestorsPage() {
             title="Email Discussion"
             subtitle="Investment opportunity"
             description="Ready to discuss the opportunity, review financials, and explore how we can scale together."
-            imageUrl="/images/personas/investors/250828_Synergy-03467.jpg"
+            imageUrl="/images/personas/investors/250828_Synergy-3437.jpg"
             tags={["Email", "Investment", "Discussion"]}
             href="mailto:doyle.d.gavin@gmail.com"
           />
@@ -333,7 +317,7 @@ export default function InvestorsPage() {
             title="LinkedIn Connect"
             subtitle="Professional background"
             description="Connect on LinkedIn to see my entrepreneurship journey, teaching background, and professional network."
-            imageUrl="/images/personas/investors/250828_Synergy-03457.jpg"
+            imageUrl="/images/personas/employers/headshot-black-and-white-full-smile.jpg"
             tags={["LinkedIn", "Professional", "Network"]}
             href="https://www.linkedin.com/in/doyle-gavin"
           />

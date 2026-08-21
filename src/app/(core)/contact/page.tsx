@@ -101,7 +101,7 @@ export default function ContactPage() {
         title="Get In Touch"
         tagline="Always up for interesting projects and good conversations"
         description="Ready to collaborate on your next project? Let's discuss how we can work together to bring your ideas to life."
-        imageUrl="/images/400A6955.jpg"
+        imageUrl="/images/400A6919.jpg"
         imagePosition={6}
         seriesLabel="Connect"
         badge="Now Accepting Projects"

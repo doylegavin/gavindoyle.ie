@@ -133,7 +133,7 @@ export default function EngineersPage() {
             title="Early Development"
             subtitle="Building the foundation"
             description="Early screenshot of Examinaite's development - building AI-powered education platform from scratch."
-            imageUrl="/images/examinaite_early_screenshot.png"
+            imageUrl="/images/projects/examinaite-hero.jpg"
             tags={["Examinaite", "Early", "Development"]}
             imagePosition={8}
           />
@@ -141,7 +141,7 @@ export default function EngineersPage() {
             title="Teaching in Class"
             subtitle="Real-world testing"
             description="Inside look at Examinaite - testing the platform in real classrooms with students."
-            imageUrl="/images/teaching-in-class-examinaite.JPG"
+            imageUrl="/images/personas/investors/teaching-in-class-examinaite.JPG"
             tags={["Teaching", "Classroom", "Testing"]}
             imagePosition={8}
           />
@@ -149,7 +149,7 @@ export default function EngineersPage() {
             title="In Classroom"
             subtitle="Student usage"
             description="Inside look at Examinaite - students using the platform for exam prep."
-            imageUrl="/images/in_classoom_teaching_examinaite.JPG"
+            imageUrl="/images/personas/employers/in_classoom_teaching_examinaite.JPG"
             tags={["Classroom", "Students", "Usage"]}
             imagePosition={8}
           />
@@ -157,7 +157,7 @@ export default function EngineersPage() {
             title="The Pitch UK"
             subtitle="Top 8 of 1000+"
             description="We're in the Pitch UK! top 8 out of 1000+ applications - major validation."
-            imageUrl="/images/examinaite_in_thePitchUK.png"
+            imageUrl="/images/ThePitchUKFinalist.jpeg"
             tags={["Pitch UK", "Competition", "Top 8"]}
             imagePosition={6}
           />
@@ -165,7 +165,7 @@ export default function EngineersPage() {
             title="Irish Times Feature"
             subtitle="First newspaper article"
             description="My first newspaper article!!! - Examinaite featured in the Irish Times."
-            imageUrl="/images/examinaite_irish_times_article.png"
+            imageUrl="/images/personas/employers/examinaite_irish_times_article.png"
             tags={["Irish Times", "Press", "Article"]}
             imagePosition={8}
           />
@@ -173,7 +173,7 @@ export default function EngineersPage() {
             title="Platform Interface 1"
             subtitle="Student dashboard"
             description="Inside look at Examinaite - clean, intuitive student dashboard design."
-            imageUrl="/images/examinaite1.png"
+            imageUrl="/images/personas/employers/examinaite1.png"
             tags={["Dashboard", "UI", "Design"]}
             imagePosition={8}
           />
@@ -181,7 +181,7 @@ export default function EngineersPage() {
             title="Platform Interface 2"
             subtitle="Question generation"
             description="Inside look at Examinaite - AI-powered question generation system."
-            imageUrl="/images/examinaite2.png"
+            imageUrl="/images/personas/employers/examinaite2.png"
             tags={["AI", "Questions", "Generation"]}
             imagePosition={8}
           />
@@ -189,7 +189,7 @@ export default function EngineersPage() {
             title="Platform Interface 3"
             subtitle="Adaptive learning"
             description="Inside look at Examinaite - adaptive difficulty and personalized learning paths."
-            imageUrl="/images/examinaite3.png"
+            imageUrl="/images/personas/employers/examinaite3.png"
             tags={["Adaptive", "Learning", "Personalized"]}
             imagePosition={8}
           />
@@ -288,7 +288,7 @@ export default function EngineersPage() {
             title="Podcast: Cybersecurity"
             subtitle="First podcast invite"
             description="My first podcast invite!! - discussing cybersecurity and tech in education."
-            imageUrl="/images/podcast-cybersecurity.JPG"
+            imageUrl="/images/projects/podcast-cybersecurity.JPG"
             tags={["Podcast", "Cybersecurity", "Education"]}
           />
           <NetflixCard

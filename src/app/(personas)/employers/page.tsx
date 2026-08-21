@@ -58,8 +58,8 @@ export default function EmployersPage() {
           title="Gavin Doyle"
           tagline="Full-Stack Developer & Founder"
           description="Self-taught developer with production experience. Built Examinaite to 1,000+ users in 3 months, Enterprise Ireland New Frontiers Phase 2, 7+ years teaching experience. Modern stack: Next.js, TypeScript, PostgreSQL - 95+ Lighthouse scores across all projects."
-          imageUrl="/images/Me_and_the_Examinaite_team.JPG"
-          imagePosition={7}
+          imageUrl="/images/NES1.jpg"
+          imagePosition={5}
           contentAlign="right"
           match="100% Match"
           year="2026"
@@ -70,6 +70,54 @@ export default function EmployersPage() {
           primaryCta={{ text: 'View CV', href: '/cv/Gavin_Doyle_CV.pdf' }}
           secondaryCta={{ text: 'Contact', href: '/contact' }}
         />
+
+        {/* National Education Show Keynote */}
+        <NavSection title="Keynote: The National Education Show">
+          <NetflixCard
+            title="The Future of Education: It's Weirder Than You Think!"
+            subtitle="National Education Show keynote"
+            description="Delivering my keynote 'The Future of Education: It's Weirder Than You Think!' to a packed room at the National Education Show — Empowering Education in Ireland."
+            imageUrl="/images/NES2.jpg"
+            tags={["Keynote", "Speaking", "Education"]}
+            imagePosition={5}
+          />
+          <NetflixCard
+            title="On Stage at the NES"
+            subtitle="Empowering Education in Ireland"
+            description="Presenting Examinaite and the future of education on stage at the National Education Show."
+            imageUrl="/images/400A6955.jpg"
+            tags={["National Education Show", "Stage", "Examinaite"]}
+            imagePosition={6}
+          />
+        </NavSection>
+
+        {/* Professional Headshots */}
+        <NavSection title="Professional Headshots">
+          <NetflixCard
+            title="Studio Portrait"
+            subtitle="Black & white"
+            description="Professional black & white studio headshot."
+            imageUrl="/images/personas/employers/headshot-black-and-white-serious.jpg"
+            tags={["Headshot", "Professional", "B&W"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Say Cheese"
+            subtitle="Full smile"
+            description="Professional colour headshot — full smile."
+            imageUrl="/images/personas/employers/headshot-full-smile.jpg"
+            tags={["Headshot", "Professional", "Colour"]}
+            imagePosition={7}
+          />
+          <NetflixCard
+            title="Half Smile"
+            subtitle="Black & white"
+            description="Professional black & white headshot — half smile."
+            imageUrl="/images/personas/employers/headshot-black-and-white-half-smile.jpg"
+            tags={["Headshot", "Professional", "B&W"]}
+            imagePosition={7}
+          />
+        </NavSection>
 
         {/* Examinaite Project */}
         <NavSection title="Flagship Project: Examinaite" id="projects">
